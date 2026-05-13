@@ -1,0 +1,28 @@
+[1.236s] Invoking command in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/h1_2_model build --build-base /home/utec/humanoid_ws/build/h1_2_model/build install --record /home/utec/humanoid_ws/build/h1_2_model/install.log --single-version-externally-managed install_data
+[1.651s] running egg_info
+[1.652s] writing ../../../build/h1_2_model/h1_2_model.egg-info/PKG-INFO
+[1.652s] writing dependency_links to ../../../build/h1_2_model/h1_2_model.egg-info/dependency_links.txt
+[1.653s] writing entry points to ../../../build/h1_2_model/h1_2_model.egg-info/entry_points.txt
+[1.653s] writing requirements to ../../../build/h1_2_model/h1_2_model.egg-info/requires.txt
+[1.653s] writing top-level names to ../../../build/h1_2_model/h1_2_model.egg-info/top_level.txt
+[1.656s] reading manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+[1.657s] writing manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+[1.657s] running build
+[1.657s] running build_py
+[1.658s] running install
+[1.658s] running install_lib
+[1.660s] running install_data
+[1.660s] running install_egg_info
+[1.662s] removing '/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model-0.0.1-py3.10.egg-info' (and everything under it)
+[1.663s] Copying ../../../build/h1_2_model/h1_2_model.egg-info to /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model-0.0.1-py3.10.egg-info
+[1.664s] running install_scripts
+[1.693s] Installing fk_test_pose script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.693s] Installing fk_test_position script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.693s] Installing jacobian_numeric_test script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.694s] Installing jacobian_test script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.694s] Installing joint_publisher script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.694s] Installing kinematic_controller_fixed script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.694s] Installing kinematic_controller_wb1 script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.694s] Installing kinematic_controller_wb2 script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.694s] writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_model/install.log'
+[1.725s] Invoked command in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/h1_2_model build --build-base /home/utec/humanoid_ws/build/h1_2_model/build install --record /home/utec/humanoid_ws/build/h1_2_model/install.log --single-version-externally-managed install_data

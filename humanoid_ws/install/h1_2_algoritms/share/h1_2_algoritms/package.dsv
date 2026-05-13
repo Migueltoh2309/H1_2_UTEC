@@ -1,0 +1,6 @@
+source;share/h1_2_algoritms/hook/pythonpath.ps1
+source;share/h1_2_algoritms/hook/pythonpath.dsv
+source;share/h1_2_algoritms/hook/pythonpath.sh
+source;share/h1_2_algoritms/hook/ament_prefix_path.ps1
+source;share/h1_2_algoritms/hook/ament_prefix_path.dsv
+source;share/h1_2_algoritms/hook/ament_prefix_path.sh

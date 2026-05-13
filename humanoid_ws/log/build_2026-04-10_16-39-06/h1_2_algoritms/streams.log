@@ -1,0 +1,25 @@
+[0.768s] Invoking command in '/home/utec/humanoid_ws/src/h1_2_algoritms': PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_algoritms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_2_algoritms build --build-base /home/utec/humanoid_ws/build/h1_2_algoritms/build install --record /home/utec/humanoid_ws/build/h1_2_algoritms/install.log --single-version-externally-managed install_data
+[0.975s] running egg_info
+[0.976s] writing ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/dependency_links.txt
+[0.977s] writing entry points to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/entry_points.txt
+[0.977s] writing requirements to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/requires.txt
+[0.977s] writing top-level names to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/top_level.txt
+[0.979s] reading manifest file '../../build/h1_2_algoritms/h1_2_algoritms.egg-info/SOURCES.txt'
+[0.980s] writing manifest file '../../build/h1_2_algoritms/h1_2_algoritms.egg-info/SOURCES.txt'
+[0.980s] running build
+[0.980s] running build_py
+[0.981s] running install
+[0.982s] running install_lib
+[0.984s] running install_data
+[0.984s] running install_egg_info
+[0.986s] removing '/home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms-0.0.0-py3.10.egg-info' (and everything under it)
+[0.987s] Copying ../../build/h1_2_algoritms/h1_2_algoritms.egg-info to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms-0.0.0-py3.10.egg-info
+[0.987s] running install_scripts
+[1.003s] Installing fk_whole_body_h1_2 script to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/h1_2_algoritms
+[1.003s] Installing ik_whole_body_h1_2 script to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/h1_2_algoritms
+[1.003s] Installing kine_control_whole_body script to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/h1_2_algoritms
+[1.004s] Installing null_control_whole_body script to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/h1_2_algoritms
+[1.004s] Installing telekeyop_whole_body script to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/h1_2_algoritms
+[1.004s] writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_algoritms/install.log'
+[1.033s] Invoked command in '/home/utec/humanoid_ws/src/h1_2_algoritms' returned '0': PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_algoritms/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_2_algoritms build --build-base /home/utec/humanoid_ws/build/h1_2_algoritms/build install --record /home/utec/humanoid_ws/build/h1_2_algoritms/install.log --single-version-externally-managed install_data

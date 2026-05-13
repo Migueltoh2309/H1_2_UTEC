@@ -1,0 +1,26 @@
+[1.661s] Invoking command in '/home/utec/humanoid_ws/src/h1_2_real': PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_real/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_2_real build --build-base /home/utec/humanoid_ws/build/h1_2_real/build install --record /home/utec/humanoid_ws/build/h1_2_real/install.log --single-version-externally-managed install_data
+[1.984s] running egg_info
+[1.984s] writing ../../build/h1_2_real/h1_2_real.egg-info/PKG-INFO
+[1.984s] writing dependency_links to ../../build/h1_2_real/h1_2_real.egg-info/dependency_links.txt
+[1.984s] writing entry points to ../../build/h1_2_real/h1_2_real.egg-info/entry_points.txt
+[1.984s] writing requirements to ../../build/h1_2_real/h1_2_real.egg-info/requires.txt
+[1.984s] writing top-level names to ../../build/h1_2_real/h1_2_real.egg-info/top_level.txt
+[1.984s] reading manifest file '../../build/h1_2_real/h1_2_real.egg-info/SOURCES.txt'
+[1.984s] writing manifest file '../../build/h1_2_real/h1_2_real.egg-info/SOURCES.txt'
+[1.985s] running build
+[1.985s] running build_py
+[1.985s] copying h1_2_real/test_mandar_modificado.py -> /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real
+[1.985s] running install
+[1.985s] running install_lib
+[1.985s] copying /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real/test_mandar_modificado.py -> /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real
+[1.985s] byte-compiling /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real/test_mandar_modificado.py to test_mandar_modificado.cpython-310.pyc
+[1.985s] running install_data
+[1.986s] running install_egg_info
+[1.986s] removing '/home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real-0.0.0-py3.10.egg-info' (and everything under it)
+[1.986s] Copying ../../build/h1_2_real/h1_2_real.egg-info to /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real-0.0.0-py3.10.egg-info
+[1.986s] running install_scripts
+[2.000s] Installing test_leer script to /home/utec/humanoid_ws/install/h1_2_real/lib/h1_2_real
+[2.000s] Installing test_mandar script to /home/utec/humanoid_ws/install/h1_2_real/lib/h1_2_real
+[2.000s] Installing test_mandar_modificado script to /home/utec/humanoid_ws/install/h1_2_real/lib/h1_2_real
+[2.000s] writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_real/install.log'
+[2.038s] Invoked command in '/home/utec/humanoid_ws/src/h1_2_real' returned '0': PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_real/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_2_real build --build-base /home/utec/humanoid_ws/build/h1_2_real/build install --record /home/utec/humanoid_ws/build/h1_2_real/install.log --single-version-externally-managed install_data

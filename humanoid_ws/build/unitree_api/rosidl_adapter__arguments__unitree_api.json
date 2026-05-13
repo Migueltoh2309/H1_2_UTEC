@@ -1,0 +1,13 @@
+{
+  "package_name": "unitree_api",
+  "non_idl_tuples": [
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/Request.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/RequestHeader.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/RequestIdentity.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/RequestLease.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/RequestPolicy.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/Response.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/ResponseHeader.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api:msg/ResponseStatus.msg"
+  ]
+}

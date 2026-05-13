@@ -1,0 +1,738 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.090s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7586e9b65fc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7586e9b65a80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7586e9b65a80>>)
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.290s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.290s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/utec/humanoid_ws'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_description) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h1_2_utec/h1_2_description' with type 'ros.ament_cmake' and name 'h1_2_description'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_interface) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h1_2_utec/h1_2_interface' with type 'ros.ament_cmake' and name 'h1_2_interface'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_2_utec/h1_2_model) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h1_2_utec/h1_2_model' with type 'ros.ament_python' and name 'h1_2_model'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/pycodes_h1) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pycodes_h1' with type 'ros.ament_python' and name 'pycodes_h1'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/build) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/build) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/build) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/build) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/install) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/install) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/log) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/log) ignored
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with type 'ros.ament_cmake' and name 'unitree_api'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with type 'ros.ament_cmake' and name 'unitree_go'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with type 'ros.ament_cmake' and name 'unitree_hg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/docs/image) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/build) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/build) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/build) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/install) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/example/src) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_ros2/example/src' with type 'ros.ament_cmake' and name 'unitree_ros2_example'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/install) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/install) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/log) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_ros2/log) ignored
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/utec/humanoid_ws/install
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 433 installed packages in /opt/ros/humble
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'h1_2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'h1_2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/h1_2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/h1_2_description', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_description', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/unitree_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/unitree_api', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'unitree_go' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_go' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/unitree_go', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/unitree_go', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'unitree_hg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_hg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/unitree_hg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/unitree_hg', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'h1_2_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/h1_2_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/h1_2_interface', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_interface', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'h1_2_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'h1_2_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/h1_2_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/h1_2_model', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model', 'symlink_install': False, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'pycodes_h1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'pycodes_h1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/pycodes_h1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/pycodes_h1', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/pycodes_h1', 'symlink_install': False, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'unitree_ros2_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_ros2_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/utec/humanoid_ws/build/unitree_ros2_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/utec/humanoid_ws/install/unitree_ros2_example', 'merge_install': False, 'path': '/home/utec/humanoid_ws/src/unitree_ros2/example/src', 'symlink_install': False, 'test_result_base': None}
+[0.390s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.391s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg' with build type 'ament_cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg'
+[0.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_description' with build type 'ament_cmake'
+[0.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_description'
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_hg -- -j8 -l8
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/h1_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_description -- -j8 -l8
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_api -- -j8 -l8
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_go -- -j8 -l8
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/h1_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_description -- -j8 -l8
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/h1_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_description
+[0.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_2_description)
+[0.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/h1_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_description
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description' for CMake module files
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_2_description', 'cmake_prefix_path')
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/hook/cmake_prefix_path.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/bin'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/lib/pkgconfig/h1_2_description.pc'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/lib/python3.10/site-packages'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/bin'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.sh'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.bash'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.zsh'
+[0.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/h1_2_description/share/colcon-core/packages/h1_2_description)
+[0.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_2_description)
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description' for CMake module files
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description' for CMake config files
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_2_description', 'cmake_prefix_path')
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/hook/cmake_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/hook/cmake_prefix_path.sh'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/bin'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/lib/pkgconfig/h1_2_description.pc'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/lib/python3.10/site-packages'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_description/bin'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.bash'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.zsh'
+[0.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/h1_2_description/share/colcon-core/packages/h1_2_description)
+[0.514s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model' with build type 'ament_python'
+[0.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_2_model', 'ament_prefix_path')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/hook/ament_prefix_path.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/hook/ament_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/hook/ament_prefix_path.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/h1_2_model build --build-base /home/utec/humanoid_ws/build/h1_2_model/build install --record /home/utec/humanoid_ws/build/h1_2_model/install.log --single-version-externally-managed install_data
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model' for CMake module files
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/h1_2_model build --build-base /home/utec/humanoid_ws/build/h1_2_model/build install --record /home/utec/humanoid_ws/build/h1_2_model/install.log --single-version-externally-managed install_data
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model' for CMake config files
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model/lib'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model/bin'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model/lib/pkgconfig/h1_2_model.pc'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages'
+[1.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_2_model', 'pythonpath')
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/hook/pythonpath.ps1'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/hook/pythonpath.dsv'
+[1.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/hook/pythonpath.sh'
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_model/bin'
+[1.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_2_model)
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/package.ps1'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/package.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/package.sh'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/package.bash'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/package.zsh'
+[1.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/h1_2_model/share/colcon-core/packages/h1_2_model)
+[9.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_api -- -j8 -l8
+[9.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_api
+[9.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[9.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_api
+[9.548s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api' for CMake module files
+[9.549s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api' for CMake config files
+[9.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[9.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[9.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[9.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/lib'
+[9.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[9.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[9.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[9.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[9.555s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/bin'
+[9.555s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[9.555s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/lib/python3.10/site-packages'
+[9.556s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/bin'
+[9.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.ps1'
+[9.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.dsv'
+[9.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.sh'
+[9.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.bash'
+[9.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.zsh'
+[9.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[9.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_api)
+[9.561s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api' for CMake module files
+[9.562s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api' for CMake config files
+[9.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'cmake_prefix_path')
+[9.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.ps1'
+[9.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.dsv'
+[9.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/cmake_prefix_path.sh'
+[9.565s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/lib'
+[9.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_api', 'ld_library_path_lib')
+[9.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.ps1'
+[9.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.dsv'
+[9.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/hook/ld_library_path_lib.sh'
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/bin'
+[9.567s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/lib/pkgconfig/unitree_api.pc'
+[9.568s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/lib/python3.10/site-packages'
+[9.568s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_api/bin'
+[9.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.ps1'
+[9.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.dsv'
+[9.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.sh'
+[9.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.bash'
+[9.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.zsh'
+[9.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_api/share/colcon-core/packages/unitree_api)
+[9.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_hg -- -j8 -l8
+[9.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_hg
+[9.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[9.858s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg' for CMake module files
+[9.859s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg' for CMake config files
+[9.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[9.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[9.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[9.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_hg
+[9.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[9.866s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/lib'
+[9.866s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[9.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[9.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[9.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[9.874s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/bin'
+[9.875s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[9.875s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/lib/python3.10/site-packages'
+[9.875s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/bin'
+[9.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.ps1'
+[9.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.dsv'
+[9.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.sh'
+[9.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.bash'
+[9.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.zsh'
+[9.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[9.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_hg)
+[9.885s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg' for CMake module files
+[9.885s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg' for CMake config files
+[9.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'cmake_prefix_path')
+[9.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.ps1'
+[9.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.dsv'
+[9.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/cmake_prefix_path.sh'
+[9.890s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/lib'
+[9.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_hg', 'ld_library_path_lib')
+[9.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.ps1'
+[9.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.dsv'
+[9.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/hook/ld_library_path_lib.sh'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/bin'
+[9.896s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/lib/pkgconfig/unitree_hg.pc'
+[9.897s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/lib/python3.10/site-packages'
+[9.897s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_hg/bin'
+[9.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.ps1'
+[9.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.dsv'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.sh'
+[9.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.bash'
+[9.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.zsh'
+[9.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_hg/share/colcon-core/packages/unitree_hg)
+[9.909s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_interface' with build type 'ament_cmake'
+[9.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_interface'
+[9.913s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.928s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/utec/humanoid_ws/src/pycodes_h1' with build type 'ament_python'
+[9.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('pycodes_h1', 'ament_prefix_path')
+[9.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/hook/ament_prefix_path.ps1'
+[9.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/hook/ament_prefix_path.dsv'
+[9.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/hook/ament_prefix_path.sh'
+[9.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_interface -- -j8 -l8
+[10.494s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/utec/humanoid_ws/src/pycodes_h1'
+[10.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/src/pycodes_h1': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description PYTHONPATH=/home/utec/humanoid_ws/build/pycodes_h1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pycodes_h1 build --build-base /home/utec/humanoid_ws/build/pycodes_h1/build install --record /home/utec/humanoid_ws/build/pycodes_h1/install.log --single-version-externally-managed install_data
+[11.468s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1' for CMake module files
+[11.468s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1' for CMake config files
+[11.469s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1/lib'
+[11.469s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1/bin'
+[11.470s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1/lib/pkgconfig/pycodes_h1.pc'
+[11.470s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages'
+[11.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('pycodes_h1', 'pythonpath')
+[11.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/hook/pythonpath.ps1'
+[11.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/src/pycodes_h1' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description PYTHONPATH=/home/utec/humanoid_ws/build/pycodes_h1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pycodes_h1 build --build-base /home/utec/humanoid_ws/build/pycodes_h1/build install --record /home/utec/humanoid_ws/build/pycodes_h1/install.log --single-version-externally-managed install_data
+[11.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/hook/pythonpath.dsv'
+[11.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/hook/pythonpath.sh'
+[11.476s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/pycodes_h1/bin'
+[11.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pycodes_h1)
+[11.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/package.ps1'
+[11.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/package.dsv'
+[11.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/package.sh'
+[11.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/package.bash'
+[11.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/pycodes_h1/share/pycodes_h1/package.zsh'
+[11.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/pycodes_h1/share/colcon-core/packages/pycodes_h1)
+[11.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_go -- -j8 -l8
+[11.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_go
+[11.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[11.814s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go' for CMake module files
+[11.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_go
+[11.815s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go' for CMake config files
+[11.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[11.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[11.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[11.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[11.817s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/lib'
+[11.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[11.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[11.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[11.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[11.818s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/bin'
+[11.818s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[11.818s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/lib/python3.10/site-packages'
+[11.818s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/bin'
+[11.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.ps1'
+[11.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.dsv'
+[11.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.sh'
+[11.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.bash'
+[11.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.zsh'
+[11.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[11.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_go)
+[11.821s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go' for CMake module files
+[11.822s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go' for CMake config files
+[11.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'cmake_prefix_path')
+[11.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.ps1'
+[11.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.dsv'
+[11.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/cmake_prefix_path.sh'
+[11.823s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/lib'
+[11.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_go', 'ld_library_path_lib')
+[11.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.ps1'
+[11.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.dsv'
+[11.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/hook/ld_library_path_lib.sh'
+[11.824s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/bin'
+[11.825s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/lib/pkgconfig/unitree_go.pc'
+[11.825s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/lib/python3.10/site-packages'
+[11.825s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_go/bin'
+[11.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.ps1'
+[11.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.dsv'
+[11.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.sh'
+[11.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.bash'
+[11.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.zsh'
+[11.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_go/share/colcon-core/packages/unitree_go)
+[11.828s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/utec/humanoid_ws/src/unitree_ros2/example/src' with build type 'ament_cmake'
+[11.828s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/utec/humanoid_ws/src/unitree_ros2/example/src'
+[11.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_ros2_example -- -j8 -l8
+[31.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_interface -- -j8 -l8
+[31.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_interface
+[31.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_2_interface)
+[31.517s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface' for CMake module files
+[31.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_interface
+[31.518s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface' for CMake config files
+[31.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_2_interface', 'cmake_prefix_path')
+[31.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/hook/cmake_prefix_path.ps1'
+[31.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/hook/cmake_prefix_path.dsv'
+[31.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/hook/cmake_prefix_path.sh'
+[31.527s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/lib'
+[31.527s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/bin'
+[31.527s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/lib/pkgconfig/h1_2_interface.pc'
+[31.527s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/lib/python3.10/site-packages'
+[31.528s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/bin'
+[31.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.ps1'
+[31.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.dsv'
+[31.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.sh'
+[31.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.bash'
+[31.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.zsh'
+[31.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/h1_2_interface/share/colcon-core/packages/h1_2_interface)
+[31.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(h1_2_interface)
+[31.539s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface' for CMake module files
+[31.540s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface' for CMake config files
+[31.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('h1_2_interface', 'cmake_prefix_path')
+[31.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/hook/cmake_prefix_path.ps1'
+[31.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/hook/cmake_prefix_path.dsv'
+[31.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/hook/cmake_prefix_path.sh'
+[31.550s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/lib'
+[31.550s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/bin'
+[31.550s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/lib/pkgconfig/h1_2_interface.pc'
+[31.550s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/lib/python3.10/site-packages'
+[31.551s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/h1_2_interface/bin'
+[31.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.ps1'
+[31.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.dsv'
+[31.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.sh'
+[31.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.bash'
+[31.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.zsh'
+[31.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/h1_2_interface/share/colcon-core/packages/h1_2_interface)
+[93.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_ros2_example -- -j8 -l8
+[93.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/utec/humanoid_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_ros2_example
+[93.265s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ros2_example)
+[93.265s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example' for CMake module files
+[93.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/utec/humanoid_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_ros2_example
+[93.266s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example' for CMake config files
+[93.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'cmake_prefix_path')
+[93.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.ps1'
+[93.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.dsv'
+[93.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.sh'
+[93.268s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/lib'
+[93.269s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/bin'
+[93.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'path')
+[93.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/path.ps1'
+[93.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/path.dsv'
+[93.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/path.sh'
+[93.270s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/lib/pkgconfig/unitree_ros2_example.pc'
+[93.271s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/lib/python3.10/site-packages'
+[93.271s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/bin'
+[93.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'pythonscriptspath')
+[93.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/pythonscriptspath.ps1'
+[93.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/pythonscriptspath.dsv'
+[93.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/pythonscriptspath.sh'
+[93.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.ps1'
+[93.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv'
+[93.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.sh'
+[93.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.bash'
+[93.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.zsh'
+[93.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_ros2_example/share/colcon-core/packages/unitree_ros2_example)
+[93.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_ros2_example)
+[93.278s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example' for CMake module files
+[93.279s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example' for CMake config files
+[93.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'cmake_prefix_path')
+[93.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.ps1'
+[93.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.dsv'
+[93.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/cmake_prefix_path.sh'
+[93.281s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/lib'
+[93.281s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/bin'
+[93.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'path')
+[93.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/path.ps1'
+[93.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/path.dsv'
+[93.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/path.sh'
+[93.283s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/lib/pkgconfig/unitree_ros2_example.pc'
+[93.284s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/lib/python3.10/site-packages'
+[93.284s] Level 1:colcon.colcon_core.environment:checking '/home/utec/humanoid_ws/install/unitree_ros2_example/bin'
+[93.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('unitree_ros2_example', 'pythonscriptspath')
+[93.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/pythonscriptspath.ps1'
+[93.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/pythonscriptspath.dsv'
+[93.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/hook/pythonscriptspath.sh'
+[93.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.ps1'
+[93.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv'
+[93.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.sh'
+[93.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.bash'
+[93.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.zsh'
+[93.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/utec/humanoid_ws/install/unitree_ros2_example/share/colcon-core/packages/unitree_ros2_example)
+[93.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[93.291s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[93.291s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[93.291s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[93.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[93.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[93.297s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[93.312s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[93.312s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utec/humanoid_ws/install/local_setup.ps1'
+[93.313s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/utec/humanoid_ws/install/_local_setup_util_ps1.py'
+[93.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utec/humanoid_ws/install/setup.ps1'
+[93.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utec/humanoid_ws/install/local_setup.sh'
+[93.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/utec/humanoid_ws/install/_local_setup_util_sh.py'
+[93.320s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utec/humanoid_ws/install/setup.sh'
+[93.321s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utec/humanoid_ws/install/local_setup.bash'
+[93.322s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utec/humanoid_ws/install/setup.bash'
+[93.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/utec/humanoid_ws/install/local_setup.zsh'
+[93.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/utec/humanoid_ws/install/setup.zsh'

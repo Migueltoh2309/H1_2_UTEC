@@ -1,0 +1,8 @@
+[console_scripts]
+QP_whole_body = h1_2_algoritms.QP_whole_body:main
+fk_whole_body_h1_2 = h1_2_algoritms.fk_whole_body_h1_2:main
+ik_whole_body_h1_2 = h1_2_algoritms.ik_whole_body_h1_2:main
+kine_control_whole_body = h1_2_algoritms.kine_control_whole_body:main
+null_control_whole_body = h1_2_algoritms.null_control_whole_body:main
+telekeyop_whole_body = h1_2_algoritms.telekeyop_whole_body:main
+

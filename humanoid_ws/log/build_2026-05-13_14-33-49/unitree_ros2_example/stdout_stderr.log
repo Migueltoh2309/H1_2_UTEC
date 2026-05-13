@@ -1,0 +1,57 @@
+[  3%] Built target read_low_state
+[  8%] Built target low_level_ctrl
+[ 10%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/h1-2/lowlevel/low_level_ctrl_hg.cpp.o[0m
+[ 13%] Built target read_motion_state
+[ 17%] Built target read_low_state_hg
+[ 22%] Built target g1_low_level_example
+[ 27%] Built target go2_sport_client
+[ 31%] Built target read_wireless_controller
+[ 37%] Built target g1_arm_sdk_dds_example
+[ 41%] Built target go2_stand_example
+[ 46%] Built target go2_robot_state_client
+[ 53%] Built target g1_dex3_example
+[ 62%] Built target g1_loco_client_example
+[ 62%] Built target g1_arm_action_example
+[ 67%] Built target g1_ankle_swing_example
+[ 70%] Built target g1_audio_client_example
+[ 75%] Built target b2w_sport_client
+[ 81%] Built target b2w_stand_example
+[ 86%] Built target b2_sport_client
+[ 91%] Built target g1_dual_arm_example
+[ 96%] Built target b2_stand_example
+[ 98%] [32m[1mLinking CXX executable low_level_ctrl_hg[0m
+[100%] Built target low_level_ctrl_hg
+-- Install configuration: ""
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl_hg
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl_hg" to ""
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/g1_low_level_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state_hg
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_motion_state
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_wireless_controller
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_sport_client
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_stand_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/go2_robot_state_client
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_action_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dex3_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_loco_client_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dual_arm_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_audio_client_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.xml

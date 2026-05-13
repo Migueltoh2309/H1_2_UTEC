@@ -1,0 +1,37 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found unitree_hg: 0.0.0 (/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/utec/humanoid_ws/build/h1_2_interface
+[35m[1mConsolidate compiler generated dependencies of target lowstate_to_jointstates[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lowstate_to_jointstates.dir/src/lowstate_to_jointstates.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lowstate_to_jointstates[0m
+[100%] Built target lowstate_to_jointstates
+-- Install configuration: ""
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/lib/h1_2_interface/lowstate_to_jointstates
+-- Set runtime path of "/home/utec/humanoid_ws/install/h1_2_interface/lib/h1_2_interface/lowstate_to_jointstates" to ""
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/package_run_dependencies/h1_2_interface
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/parent_prefix_path/h1_2_interface
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/ament_prefix_path.sh
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/path.sh
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/path.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.bash
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.sh
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.zsh
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.dsv
+-- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/packages/h1_2_interface
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/cmake/h1_2_interfaceConfig.cmake
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/cmake/h1_2_interfaceConfig-version.cmake
+-- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.xml

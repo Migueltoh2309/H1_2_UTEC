@@ -1,0 +1,58 @@
+[0.492s] Invoking command in '/home/utec/humanoid_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/home/utec/humanoid_ws/install/h1_2_algoritms:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_ros2_example -- -j8 -l8
+[0.654s] [  3%] Built target read_wireless_controller
+[0.661s] [  6%] Built target read_motion_state
+[0.679s] [ 10%] Built target read_low_state_hg
+[0.679s] [ 13%] Built target read_low_state
+[0.679s] [ 18%] Built target low_level_ctrl_hg
+[0.680s] [ 24%] Built target g1_low_level_example
+[0.681s] [ 29%] Built target go2_sport_client
+[0.683s] [ 34%] Built target low_level_ctrl
+[0.769s] [ 41%] Built target g1_arm_sdk_dds_example
+[0.772s] [ 44%] Built target go2_stand_example
+[0.772s] [ 50%] Built target go2_robot_state_client
+[0.775s] [ 55%] Built target g1_arm_action_example
+[0.784s] [ 60%] Built target g1_ankle_swing_example
+[0.799s] [ 63%] Built target g1_audio_client_example
+[0.807s] [ 68%] Built target g1_dex3_example
+[0.843s] [ 74%] Built target g1_loco_client_example
+[0.909s] [ 81%] Built target g1_dual_arm_example
+[0.911s] [ 84%] Built target b2w_sport_client
+[0.924s] [ 89%] Built target b2w_stand_example
+[0.935s] [ 94%] Built target b2_sport_client
+[0.938s] [100%] Built target b2_stand_example
+[0.974s] Invoked command in '/home/utec/humanoid_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/home/utec/humanoid_ws/install/h1_2_algoritms:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_ros2_example -- -j8 -l8
+[0.976s] Invoking command in '/home/utec/humanoid_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/home/utec/humanoid_ws/install/h1_2_algoritms:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_ros2_example
+[0.989s] -- Install configuration: ""
+[0.989s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl
+[0.990s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl_hg
+[0.991s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/g1_low_level_example
+[0.991s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state
+[0.991s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state_hg
+[0.992s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_motion_state
+[0.992s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_wireless_controller
+[0.994s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_sport_client
+[0.994s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_stand_example
+[0.994s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/go2_robot_state_client
+[0.994s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example
+[0.996s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_action_example
+[1.003s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dex3_example
+[1.004s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_loco_client_example
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dual_arm_example
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_audio_client_example
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+[1.005s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+[1.006s] -- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+[1.006s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.xml
+[1.009s] Invoked command in '/home/utec/humanoid_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/home/utec/humanoid_ws/install/h1_2_algoritms:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_ros2_example

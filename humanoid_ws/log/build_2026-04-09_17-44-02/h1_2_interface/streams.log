@@ -1,0 +1,24 @@
+[0.027s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': AMENT_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/opt/ros/humble LD_LIBRARY_PATH=/home/utec/humanoid_ws/install/unitree_hg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_interface -- -j8 -l8
+[0.134s] [ 50%] [32m[1mLinking CXX executable lowstate_to_jointstates[0m
+[0.650s] [100%] Built target lowstate_to_jointstates
+[0.678s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': AMENT_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/opt/ros/humble LD_LIBRARY_PATH=/home/utec/humanoid_ws/install/unitree_hg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_interface -- -j8 -l8
+[0.686s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': AMENT_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/opt/ros/humble LD_LIBRARY_PATH=/home/utec/humanoid_ws/install/unitree_hg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_interface
+[0.705s] -- Install configuration: ""
+[0.712s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/lib/h1_2_interface/lowstate_to_jointstates
+[0.722s] -- Set runtime path of "/home/utec/humanoid_ws/install/h1_2_interface/lib/h1_2_interface/lowstate_to_jointstates" to ""
+[0.723s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/package_run_dependencies/h1_2_interface
+[0.723s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/parent_prefix_path/h1_2_interface
+[0.724s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/ament_prefix_path.sh
+[0.724s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/ament_prefix_path.dsv
+[0.724s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/path.sh
+[0.725s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/path.dsv
+[0.725s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.bash
+[0.725s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.sh
+[0.725s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.zsh
+[0.725s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.dsv
+[0.727s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.dsv
+[0.729s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/packages/h1_2_interface
+[0.729s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/cmake/h1_2_interfaceConfig.cmake
+[0.729s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/cmake/h1_2_interfaceConfig-version.cmake
+[0.730s] -- Up-to-date: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.xml
+[0.733s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': AMENT_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/opt/ros/humble LD_LIBRARY_PATH=/home/utec/humanoid_ws/install/unitree_hg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_interface

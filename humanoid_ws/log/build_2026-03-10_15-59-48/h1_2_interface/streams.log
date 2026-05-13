@@ -1,0 +1,62 @@
+[0.031s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake /home/utec/humanoid_ws/src/h1_2_utec/h1_2_interface -DCMAKE_INSTALL_PREFIX=/home/utec/humanoid_ws/install/h1_2_interface
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.482s] -- The CXX compiler identification is GNU 11.4.0
+[0.508s] -- Detecting C compiler ABI info
+[0.995s] -- Detecting C compiler ABI info - done
+[1.039s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.039s] -- Detecting C compile features
+[1.043s] -- Detecting C compile features - done
+[1.065s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.633s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.633s] -- Detecting CXX compile features
+[1.633s] -- Detecting CXX compile features - done
+[1.653s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.884s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.124s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.148s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.195s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.576s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.802s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.869s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.985s] -- Looking for pthread.h
+[4.095s] -- Looking for pthread.h - found
+[4.095s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.197s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.200s] -- Found Threads: TRUE  
+[4.268s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.304s] -- Found unitree_hg: 0.0.0 (/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake)
+[4.416s] -- Configuring done
+[4.428s] -- Generating done
+[4.432s] -- Build files have been written to: /home/utec/humanoid_ws/build/h1_2_interface
+[4.446s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake /home/utec/humanoid_ws/src/h1_2_utec/h1_2_interface -DCMAKE_INSTALL_PREFIX=/home/utec/humanoid_ws/install/h1_2_interface
+[4.448s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_interface -- -j8 -l8
+[4.507s] [ 50%] [32mBuilding CXX object CMakeFiles/lowstate_to_jointstates.dir/src/lowstate_to_jointstates.cpp.o[0m
+[16.639s] [100%] [32m[1mLinking CXX executable lowstate_to_jointstates[0m
+[18.134s] [100%] Built target lowstate_to_jointstates
+[18.186s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_interface -- -j8 -l8
+[18.187s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_interface': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_interface
+[18.206s] -- Install configuration: ""
+[18.207s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/lib/h1_2_interface/lowstate_to_jointstates
+[18.214s] -- Set runtime path of "/home/utec/humanoid_ws/install/h1_2_interface/lib/h1_2_interface/lowstate_to_jointstates" to ""
+[18.220s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/package_run_dependencies/h1_2_interface
+[18.222s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/parent_prefix_path/h1_2_interface
+[18.227s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/ament_prefix_path.sh
+[18.228s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/ament_prefix_path.dsv
+[18.228s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/path.sh
+[18.229s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/environment/path.dsv
+[18.229s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.bash
+[18.232s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.sh
+[18.232s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.zsh
+[18.232s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/local_setup.dsv
+[18.237s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.dsv
+[18.238s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/ament_index/resource_index/packages/h1_2_interface
+[18.239s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/cmake/h1_2_interfaceConfig.cmake
+[18.239s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/cmake/h1_2_interfaceConfig-version.cmake
+[18.239s] -- Installing: /home/utec/humanoid_ws/install/h1_2_interface/share/h1_2_interface/package.xml
+[18.264s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_interface' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_interface

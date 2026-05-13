@@ -1,0 +1,330 @@
+[0.019s] Invoking command in '/home/utec/humanoid_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_api -- -j8 -l8
+[0.108s] [  1%] Built target unitree_api__dds_connext_idl
+[0.114s] [  2%] Built target unitree_api__cpp
+[0.127s] [ 13%] Built target unitree_api__rosidl_generator_c
+[0.147s] [ 13%] Built target ament_cmake_python_copy_unitree_api
+[0.187s] [ 14%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request__type_support.cpp.o[0m
+[0.194s] [ 26%] Built target unitree_api__rosidl_typesupport_c
+[0.209s] [ 27%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_header__type_support.cpp.o[0m
+[0.211s] [ 28%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_identity__type_support.cpp.o[0m
+[0.211s] [ 39%] Built target unitree_api__rosidl_typesupport_fastrtps_c
+[0.223s] [ 51%] Built target unitree_api__rosidl_typesupport_introspection_c
+[0.230s] [ 53%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request__type_support.cpp.o[0m
+[0.233s] [ 63%] Built target unitree_api__rosidl_typesupport_fastrtps_cpp
+[0.250s] [ 64%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_lease__type_support.cpp.o[0m
+[0.259s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_header__type_support.cpp.o[0m
+[0.282s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/request_policy__type_support.cpp.o[0m
+[1.614s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response__type_support.cpp.o[0m
+[1.705s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_identity__type_support.cpp.o[0m
+[1.976s] running egg_info
+[1.977s] writing unitree_api.egg-info/PKG-INFO
+[1.978s] writing dependency_links to unitree_api.egg-info/dependency_links.txt
+[1.978s] writing top-level names to unitree_api.egg-info/top_level.txt
+[2.005s] reading manifest file 'unitree_api.egg-info/SOURCES.txt'
+[2.005s] writing manifest file 'unitree_api.egg-info/SOURCES.txt'
+[2.175s] [ 69%] Built target ament_cmake_python_build_unitree_api_egg
+[2.206s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response_header__type_support.cpp.o[0m
+[2.435s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_lease__type_support.cpp.o[0m
+[2.444s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_api/msg/detail/response_status__type_support.cpp.o[0m
+[2.451s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/request_policy__type_support.cpp.o[0m
+[2.663s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/response__type_support.cpp.o[0m
+[2.883s] [ 76%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/response_header__type_support.cpp.o[0m
+[3.041s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_api/msg/response_status__type_support.cpp.o[0m
+[4.578s] [ 78%] [32m[1mLinking CXX shared library libunitree_api__rosidl_typesupport_cpp.so[0m
+[4.611s] [ 79%] [32m[1mLinking CXX shared library libunitree_api__rosidl_typesupport_introspection_cpp.so[0m
+[4.755s] [ 80%] Built target unitree_api__rosidl_typesupport_cpp
+[4.928s] [ 81%] Built target unitree_api__rosidl_typesupport_introspection_cpp
+[4.993s] [ 81%] Built target unitree_api
+[5.056s] [ 82%] Built target unitree_api__py
+[5.133s] [ 84%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_s.c.o[0m
+[5.145s] [ 85%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_lease_s.c.o[0m
+[5.147s] [ 87%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_policy_s.c.o[0m
+[5.147s] [ 88%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_identity_s.c.o[0m
+[5.148s] [ 86%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_request_header_s.c.o[0m
+[5.164s] [ 89%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_response_s.c.o[0m
+[5.164s] [ 90%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_response_header_s.c.o[0m
+[5.177s] [ 92%] [32mBuilding C object CMakeFiles/unitree_api__rosidl_generator_py.dir/rosidl_generator_py/unitree_api/msg/_response_status_s.c.o[0m
+[5.596s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/unitree_api/libunitree_api__rosidl_generator_py.so[0m
+[5.698s] [ 93%] Built target unitree_api__rosidl_generator_py
+[5.768s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.778s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.785s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.941s] [ 97%] Built target unitree_api__rosidl_typesupport_c__pyext
+[5.946s] [ 98%] Built target unitree_api__rosidl_typesupport_fastrtps_c__pyext
+[5.966s] [100%] Built target unitree_api__rosidl_typesupport_introspection_c__pyext
+[6.031s] Invoked command in '/home/utec/humanoid_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_api -- -j8 -l8
+[6.039s] Invoking command in '/home/utec/humanoid_ws/build/unitree_api': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_api
+[6.070s] -- Install configuration: ""
+[6.071s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/ament_index/resource_index/rosidl_interfaces/unitree_api
+[6.072s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api
+[6.072s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg
+[6.072s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response_header.h
+[6.072s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_header.h
+[6.073s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_identity.h
+[6.073s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail
+[6.076s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.h
+[6.076s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.h
+[6.076s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__struct.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__type_support.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__functions.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__functions.c
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__type_support.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__type_support.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__functions.c
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__functions.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__functions.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__type_support.h
+[6.077s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__functions.c
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__functions.c
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__functions.c
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__type_support.h
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__functions.h
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.h
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__functions.h
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__functions.h
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__functions.c
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.h
+[6.078s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__functions.c
+[6.079s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__type_support.h
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__functions.h
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__functions.c
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__functions.h
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.h
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__struct.h
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.h
+[6.083s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__struct.h
+[6.084s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response.h
+[6.084s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_policy.h
+[6.084s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_lease.h
+[6.084s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_generator_c__visibility_control.h
+[6.084s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response_status.h
+[6.084s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request.h
+[6.085s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/library_path.sh
+[6.092s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/library_path.dsv
+[6.092s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_generator_c.so
+[6.092s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api
+[6.092s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_fastrtps_c.h
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_fastrtps_c.h
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_fastrtps_c.h
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_fastrtps_c.h
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_fastrtps_c.h
+[6.093s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_fastrtps_c.h
+[6.094s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_fastrtps_c.h
+[6.094s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_fastrtps_c.h
+[6.095s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_c.so
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response_status.hpp
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_identity.hpp
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request.hpp
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__traits.hpp
+[6.097s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__traits.hpp
+[6.098s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__traits.hpp
+[6.098s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__builder.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__builder.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__struct.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__builder.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__traits.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__type_support.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__struct.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__traits.hpp
+[6.100s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__struct.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__type_support.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__type_support.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__struct.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__builder.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__type_support.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__builder.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__struct.hpp
+[6.105s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.hpp
+[6.106s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__traits.hpp
+[6.106s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__builder.hpp
+[6.106s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__builder.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__traits.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__type_support.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__struct.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__type_support.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__struct.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__builder.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__struct.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__traits.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_lease.hpp
+[6.107s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_policy.hpp
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/request_header.hpp
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response_header.hpp
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/response.hpp
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_fastrtps_cpp.hpp
+[6.108s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/dds_fastrtps
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_fastrtps_cpp.hpp
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_fastrtps_cpp.so
+[6.109s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api
+[6.116s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg
+[6.116s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail
+[6.116s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__type_support.c
+[6.116s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.c
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__type_support.c
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__type_support.c
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_introspection_c.h
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_introspection_c.h
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__type_support.c
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_introspection_c.h
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__type_support.c
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_introspection_c.h
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__type_support.c
+[6.117s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_introspection_c.h
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_introspection_c.h
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_introspection_c.h
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.c
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_introspection_c.h
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_c.so
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_c.so
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail
+[6.118s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__type_support.cpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__type_support.cpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__rosidl_typesupport_introspection_cpp.hpp
+[6.119s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_policy__rosidl_typesupport_introspection_cpp.hpp
+[6.128s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_lease__type_support.cpp
+[6.128s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_status__type_support.cpp
+[6.128s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response_header__type_support.cpp
+[6.128s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_identity__type_support.cpp
+[6.128s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/request_header__type_support.cpp
+[6.129s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/include/unitree_api/unitree_api/msg/detail/response__type_support.cpp
+[6.129s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so
+[6.129s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_introspection_cpp.so" to ""
+[6.129s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so
+[6.129s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_typesupport_cpp.so" to ""
+[6.129s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/pythonpath.sh
+[6.129s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/pythonpath.dsv
+[6.129s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info
+[6.129s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/top_level.txt
+[6.129s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/PKG-INFO
+[6.129s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.130s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.130s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api
+[6.130s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/_unitree_api_s.ep.rosidl_typesupport_introspection_c.c
+[6.130s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/__init__.py
+[6.130s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/_unitree_api_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.130s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.130s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/libunitree_api__rosidl_generator_py.so
+[6.130s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.130s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg
+[6.130s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_status.py
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response.py
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_header_s.c
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_s.c
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/__init__.py
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_header.py
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request.py
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_lease_s.c
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_policy_s.c
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_policy.py
+[6.131s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_header.py
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_lease.py
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_s.c
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_header_s.c
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_response_status_s.c
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_identity.py
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg/_request_identity_s.c
+[6.135s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/_unitree_api_s.ep.rosidl_typesupport_c.c
+[6.135s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.291s] Listing '/home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api'...
+[6.291s] Listing '/home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/msg'...
+[6.309s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.311s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.311s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.312s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.318s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.318s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_api/local/lib/python3.10/dist-packages/unitree_api/unitree_api_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.321s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so
+[6.325s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_api/lib/libunitree_api__rosidl_generator_py.so" to ""
+[6.325s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/Request.idl
+[6.325s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestHeader.idl
+[6.325s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestIdentity.idl
+[6.325s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestLease.idl
+[6.325s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestPolicy.idl
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/Response.idl
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/ResponseHeader.idl
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/ResponseStatus.idl
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/Request.msg
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestHeader.msg
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestIdentity.msg
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestLease.msg
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/RequestPolicy.msg
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/Response.msg
+[6.326s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/ResponseHeader.msg
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/ResponseStatus.msg
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/Request_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/ResponseStatus_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/RequestIdentity_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/RequestPolicy_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/RequestHeader_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/ResponseHeader_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/Response_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/msg/dds_connext/RequestLease_.idl
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/ament_index/resource_index/package_run_dependencies/unitree_api
+[6.327s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/ament_index/resource_index/parent_prefix_path/unitree_api
+[6.328s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/ament_prefix_path.sh
+[6.328s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/ament_prefix_path.dsv
+[6.328s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/path.sh
+[6.328s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/environment/path.dsv
+[6.332s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/local_setup.bash
+[6.332s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/local_setup.sh
+[6.332s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/local_setup.zsh
+[6.332s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/local_setup.dsv
+[6.332s] -- Installing: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.dsv
+[6.333s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/ament_index/resource_index/packages/unitree_api
+[6.334s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport.cmake
+[6.334s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cExport-noconfig.cmake
+[6.335s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport.cmake
+[6.335s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.335s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_cppExport.cmake
+[6.336s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.336s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.336s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport.cmake
+[6.336s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.337s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport.cmake
+[6.337s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cExport-noconfig.cmake
+[6.337s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport.cmake
+[6.337s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.338s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport.cmake
+[6.338s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_api__rosidl_typesupport_cppExport-noconfig.cmake
+[6.346s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport.cmake
+[6.346s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/export_unitree_api__rosidl_generator_pyExport-noconfig.cmake
+[6.346s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/rosidl_cmake-extras.cmake
+[6.346s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.346s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.346s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_libraries-extras.cmake
+[6.347s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/ament_cmake_export_targets-extras.cmake
+[6.347s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.347s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.347s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_apiConfig.cmake
+[6.347s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake/unitree_apiConfig-version.cmake
+[6.347s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_api/share/unitree_api/package.xml
+[6.360s] Invoked command in '/home/utec/humanoid_ws/build/unitree_api' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_api

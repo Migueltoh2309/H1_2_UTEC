@@ -1,0 +1,31 @@
+[1.012s] Invoking command in '/home/utec/humanoid_ws/src/pycodes_h1': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description PYTHONPATH=/home/utec/humanoid_ws/build/pycodes_h1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pycodes_h1 build --build-base /home/utec/humanoid_ws/build/pycodes_h1/build install --record /home/utec/humanoid_ws/build/pycodes_h1/install.log --single-version-externally-managed install_data
+[1.262s] running egg_info
+[1.263s] writing ../../build/pycodes_h1/pycodes_h1.egg-info/PKG-INFO
+[1.263s] writing dependency_links to ../../build/pycodes_h1/pycodes_h1.egg-info/dependency_links.txt
+[1.263s] writing entry points to ../../build/pycodes_h1/pycodes_h1.egg-info/entry_points.txt
+[1.263s] writing requirements to ../../build/pycodes_h1/pycodes_h1.egg-info/requires.txt
+[1.263s] writing top-level names to ../../build/pycodes_h1/pycodes_h1.egg-info/top_level.txt
+[1.265s] reading manifest file '../../build/pycodes_h1/pycodes_h1.egg-info/SOURCES.txt'
+[1.266s] writing manifest file '../../build/pycodes_h1/pycodes_h1.egg-info/SOURCES.txt'
+[1.266s] running build
+[1.266s] running build_py
+[1.266s] copying pycodes_h1/S_kine_control_QP_arm_test.py -> /home/utec/humanoid_ws/build/pycodes_h1/build/lib/pycodes_h1
+[1.267s] running install
+[1.267s] running install_lib
+[1.267s] copying /home/utec/humanoid_ws/build/pycodes_h1/build/lib/pycodes_h1/S_kine_control_QP_arm_test.py -> /home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages/pycodes_h1
+[1.268s] byte-compiling /home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages/pycodes_h1/S_kine_control_QP_arm_test.py to S_kine_control_QP_arm_test.cpython-310.pyc
+[1.269s] running install_data
+[1.269s] running install_egg_info
+[1.271s] removing '/home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages/pycodes_h1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.271s] Copying ../../build/pycodes_h1/pycodes_h1.egg-info to /home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages/pycodes_h1-0.0.0-py3.10.egg-info
+[1.272s] running install_scripts
+[1.305s] Installing R_read_states_h1 script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.305s] Installing S_fk_arm_test script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.306s] Installing S_fk_body_test script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.306s] Installing S_ik_SE3_adv_arm_test script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.306s] Installing S_ik_adv_arm_test script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.306s] Installing S_ik_arm_test script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.306s] Installing S_kine_control_QP_arm_test script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.306s] Installing vision_code script to /home/utec/humanoid_ws/install/pycodes_h1/lib/pycodes_h1
+[1.307s] writing list of installed files to '/home/utec/humanoid_ws/build/pycodes_h1/install.log'
+[1.339s] Invoked command in '/home/utec/humanoid_ws/src/pycodes_h1' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api:/home/utec/humanoid_ws/install/h1_2_description PYTHONPATH=/home/utec/humanoid_ws/build/pycodes_h1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/pycodes_h1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pycodes_h1 build --build-base /home/utec/humanoid_ws/build/pycodes_h1/build install --record /home/utec/humanoid_ws/build/pycodes_h1/install.log --single-version-externally-managed install_data

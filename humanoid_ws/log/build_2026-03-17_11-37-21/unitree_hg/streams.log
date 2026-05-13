@@ -1,0 +1,439 @@
+[0.020s] Invoking command in '/home/utec/humanoid_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_hg -- -j8 -l8
+[0.062s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.197s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.234s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.238s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.246s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.273s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.319s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[0.668s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.420s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.448s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.448s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.518s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.533s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.535s] -- Added test 'lint_cmake' to check CMake code style
+[1.536s] -- Added test 'xmllint' to check XML markup files
+[1.540s] -- Configuring done
+[1.615s] -- Generating done
+[1.631s] -- Build files have been written to: /home/utec/humanoid_ws/build/unitree_hg
+[1.713s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_generator_c[0m
+[1.715s] [  0%] Built target unitree_hg__cpp
+[1.716s] [  1%] Built target unitree_hg__dds_connext_idl
+[1.741s] [  1%] Built target ament_cmake_python_copy_unitree_hg
+[1.743s] [  2%] [32m[1mLinking C shared library libunitree_hg__rosidl_generator_c.so[0m
+[1.750s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_fastrtps_cpp[0m
+[1.755s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_introspection_cpp[0m
+[1.756s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_cpp[0m
+[1.805s] [  3%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_introspection_cpp.so[0m
+[1.818s] [  4%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o[0m
+[1.842s] [  5%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_state__type_support.cpp.o[0m
+[1.842s] [  6%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o[0m
+[1.845s] [  7%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_cpp.so[0m
+[1.850s] [  5%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_cmd__type_support.cpp.o[0m
+[1.876s] [ 18%] Built target unitree_hg__rosidl_generator_c
+[1.905s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o[0m
+[2.169s] [ 30%] Built target unitree_hg__rosidl_typesupport_cpp
+[2.188s] running egg_info
+[2.188s] writing unitree_hg.egg-info/PKG-INFO
+[2.188s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[2.188s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[2.191s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.194s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[2.228s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_fastrtps_c[0m
+[2.228s] [ 41%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[2.282s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_introspection_c[0m
+[2.324s] [ 41%] Built target ament_cmake_python_build_unitree_hg_egg
+[2.329s] [ 42%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_cmd__type_support_c.cpp.o[0m
+[2.357s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_state__type_support_c.cpp.o[0m
+[2.382s] [ 44%] [32m[1mLinking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so[0m
+[2.672s] [ 54%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[2.779s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_c[0m
+[2.862s] [ 55%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_c.so[0m
+[3.119s] [ 65%] Built target unitree_hg__rosidl_typesupport_c
+[3.188s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o[0m
+[3.876s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_state__type_support.cpp.o[0m
+[3.911s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_cmd__type_support_c.cpp.o[0m
+[4.121s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/main_board_state__type_support.cpp.o[0m
+[4.744s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_state__type_support_c.cpp.o[0m
+[4.751s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[4.971s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/imu_state__type_support_c.cpp.o[0m
+[5.061s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[5.498s] [ 74%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_cmd__type_support_c.cpp.o[0m
+[6.004s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_state__type_support_c.cpp.o[0m
+[6.328s] [ 76%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/press_sensor_state__type_support.cpp.o[0m
+[6.591s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/main_board_state__type_support_c.cpp.o[0m
+[6.765s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[6.839s] [ 78%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__type_support_c.cpp.o[0m
+[6.884s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/press_sensor_state__type_support_c.cpp.o[0m
+[7.785s] [ 80%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.044s] [ 81%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[8.058s] [ 82%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_c.so[0m
+[8.245s] [ 82%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[8.305s] [ 82%] Built target unitree_hg
+[8.346s] [ 83%] Built target unitree_hg__py
+[8.391s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_generator_py[0m
+[8.452s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/libunitree_hg__rosidl_generator_py.so[0m
+[8.567s] [ 94%] Built target unitree_hg__rosidl_generator_py
+[8.596s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_introspection_c__pyext[0m
+[8.600s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_c__pyext[0m
+[8.603s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.616s] [ 95%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.637s] [ 96%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c.o[0m
+[8.667s] [ 97%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.970s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.970s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.990s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.087s] [100%] Built target unitree_hg__rosidl_typesupport_fastrtps_c__pyext
+[9.097s] [100%] Built target unitree_hg__rosidl_typesupport_c__pyext
+[9.115s] [100%] Built target unitree_hg__rosidl_typesupport_introspection_c__pyext
+[9.193s] Invoked command in '/home/utec/humanoid_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_hg -- -j8 -l8
+[9.194s] Invoking command in '/home/utec/humanoid_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_hg
+[9.218s] -- Install configuration: ""
+[9.218s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[9.218s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[9.218s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[9.218s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.c
+[9.219s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.c
+[9.220s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.c
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[9.223s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.c
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.c
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.c
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.c
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[9.224s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[9.225s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[9.225s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.c
+[9.225s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[9.225s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[9.225s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[9.229s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.c
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.c
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.c
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[9.230s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[9.231s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[9.231s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[9.231s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[9.231s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[9.231s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[9.231s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[9.231s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[9.231s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so" to ""
+[9.231s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[9.231s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[9.232s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[9.236s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[9.237s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so" to ""
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[9.237s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[9.238s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[9.238s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[9.238s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[9.238s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[9.238s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[9.239s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[9.239s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[9.239s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[9.239s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[9.239s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[9.239s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[9.243s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[9.243s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[9.243s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[9.243s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[9.243s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[9.243s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[9.244s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[9.245s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[9.246s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[9.247s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[9.247s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[9.250s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[9.250s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.250s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[9.250s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[9.250s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[9.250s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/dds_fastrtps
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.251s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.252s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[9.252s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[9.252s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[9.253s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[9.254s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[9.257s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[9.258s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[9.258s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[9.258s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.258s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[9.258s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so" to ""
+[9.258s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[9.258s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so" to ""
+[9.258s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[9.258s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[9.258s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.cpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.cpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.cpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.cpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[9.259s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[9.260s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.cpp
+[9.263s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[9.264s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[9.264s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[9.264s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so" to ""
+[9.264s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[9.264s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so" to ""
+[9.264s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[9.264s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[9.264s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info
+[9.264s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/top_level.txt
+[9.264s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/PKG-INFO
+[9.264s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.265s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg
+[9.265s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.265s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[9.265s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py
+[9.265s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py
+[9.266s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py
+[9.266s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state_s.c
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state_s.c
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd_s.c
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py
+[9.269s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd_s.c
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py
+[9.270s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd_s.c
+[9.271s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.271s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.415s] Listing '/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg'...
+[9.415s] Compiling '/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py'...
+[9.415s] Listing '/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg'...
+[9.424s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.428s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.428s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.428s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.429s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.432s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.436s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[9.438s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so" to ""
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[9.440s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[9.441s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[9.442s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[9.443s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[9.443s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[9.443s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[9.445s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/path.sh
+[9.445s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[9.446s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/local_setup.bash
+[9.446s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/local_setup.sh
+[9.446s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[9.446s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[9.447s] -- Installing: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.dsv
+[9.447s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[9.451s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[9.451s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[9.452s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[9.452s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.453s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[9.453s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.453s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.454s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[9.454s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.454s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[9.454s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[9.455s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[9.455s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.456s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[9.456s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[9.456s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[9.456s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[9.463s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[9.463s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.463s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.463s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[9.463s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[9.463s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.464s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.465s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[9.465s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[9.472s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/package.xml
+[9.473s] Invoked command in '/home/utec/humanoid_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_hg

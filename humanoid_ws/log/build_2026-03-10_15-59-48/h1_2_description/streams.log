@@ -1,0 +1,142 @@
+[0.012s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake /home/utec/humanoid_ws/src/h1_2_utec/h1_2_description -DCMAKE_INSTALL_PREFIX=/home/utec/humanoid_ws/install/h1_2_description
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.405s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.421s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.696s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.978s] -- Configuring done
+[0.984s] -- Generating done
+[0.987s] -- Build files have been written to: /home/utec/humanoid_ws/build/h1_2_description
+[0.998s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake /home/utec/humanoid_ws/src/h1_2_utec/h1_2_description -DCMAKE_INSTALL_PREFIX=/home/utec/humanoid_ws/install/h1_2_description
+[1.002s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_description -- -j8 -l8
+[1.069s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/h1_2_description -- -j8 -l8
+[1.086s] Invoking command in '/home/utec/humanoid_ws/build/h1_2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_description
+[1.094s] -- Install configuration: ""
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/urdf
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/urdf/h1_2.urdf
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/urdf/h1_2_handless_bright.urdf
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/urdf/h1_2_bright.urdf
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/urdf/h1_2_handless.urdf
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes
+[1.094s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_index_intermediate.STL
+[1.095s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/pelvis.STL
+[1.098s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_hip_yaw_link.STL
+[1.101s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_ankle_A_rod_link.STL
+[1.106s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link12_L.STL
+[1.107s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_ring_proximal.STL
+[1.107s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_elbow_link.STL
+[1.107s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_pinky_proximal.STL
+[1.115s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_pitch_link.STL
+[1.115s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_pinky_proximal.STL
+[1.116s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link20_L.STL
+[1.117s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_thumb_intermediate.STL
+[1.120s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_knee_link.STL
+[1.121s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_hand_base_link.STL
+[1.127s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_shoulder_roll_link.STL
+[1.133s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_middle_proximal.STL
+[1.135s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_thumb_proximal.STL
+[1.139s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_B_rod_link.STL
+[1.140s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_wrist_roll_link.STL
+[1.146s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_ring_proximal.STL
+[1.147s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_ring_intermediate.STL
+[1.148s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_hand_link.STL
+[1.149s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_wrist_pitch_link.STL
+[1.151s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_ring_intermediate.STL
+[1.153s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_hand_link.STL
+[1.154s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_A_rod_link.STL
+[1.154s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link18_R.STL
+[1.155s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link16_R.STL
+[1.157s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link22_L.STL
+[1.160s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_thumb_distal.STL
+[1.160s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_hip_pitch_link.STL
+[1.163s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link12_R.STL
+[1.170s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_ankle_B_link.STL
+[1.170s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link11_R.STL
+[1.171s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_roll_link.STL
+[1.171s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link13_L.STL
+[1.173s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_wrist_pitch_link.STL
+[1.178s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_shoulder_pitch_link.STL
+[1.183s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_link.STL
+[1.185s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_B_link.STL
+[1.185s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link22_R.STL
+[1.192s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/torso_link.STL
+[1.195s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_shoulder_yaw_link.STL
+[1.201s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_thumb_proximal_base.STL
+[1.202s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link14_L.STL
+[1.205s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link11_L.STL
+[1.205s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link18_L.STL
+[1.206s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_shoulder_pitch_link.STL
+[1.212s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/wrist_yaw_link.STL
+[1.217s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_thumb_proximal_base.STL
+[1.217s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link15_L.STL
+[1.218s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link15_R.STL
+[1.220s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_shoulder_roll_link.STL
+[1.232s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_ankle_A_link.STL
+[1.238s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_index_intermediate.STL
+[1.242s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link17_R.STL
+[1.243s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_pinky_intermediate.STL
+[1.246s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link21_R.STL
+[1.248s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link20_R.STL
+[1.251s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_elbow_link.STL
+[1.255s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_ankle_roll_link.STL
+[1.256s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_pinky_intermediate.STL
+[1.257s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_thumb_intermediate.STL
+[1.261s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_ankle_pitch_link.STL
+[1.261s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_hand_base_link.STL
+[1.263s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_shoulder_yaw_link.STL
+[1.266s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_middle_intermediate.STL
+[1.266s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link19_L.STL
+[1.267s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_ankle_A_link.STL
+[1.267s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link19_R.STL
+[1.269s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_hip_yaw_link.STL
+[1.270s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_index_proximal.STL
+[1.270s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link16_L.STL
+[1.271s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link21_L.STL
+[1.271s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/logo_link.STL
+[1.271s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_hip_roll_link.STL
+[1.272s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_ankle_B_rod_link.STL
+[1.272s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_hip_roll_link.STL
+[1.272s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/L_thumb_proximal.STL
+[1.273s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_thumb_distal.STL
+[1.274s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_pitch_link.STL
+[1.275s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_index_proximal.STL
+[1.276s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_middle_intermediate.STL
+[1.276s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link14_R.STL
+[1.277s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link17_L.STL
+[1.277s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_knee_link.STL
+[1.278s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/right_hip_pitch_link.STL
+[1.282s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/left_wrist_roll_link.STL
+[1.282s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/link13_R.STL
+[1.285s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/meshes/R_middle_proximal.STL
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/launch
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/launch/display_handless.launch.py
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/launch/display_sliders.launch.py
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/launch/display_handless_sliders.launch.py
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/rviz
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/rviz/h1_2_display.rviz
+[1.286s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/rviz/h1_2_display_marker.rviz
+[1.291s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/ament_index/resource_index/package_run_dependencies/h1_2_description
+[1.291s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/ament_index/resource_index/parent_prefix_path/h1_2_description
+[1.291s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/environment/ament_prefix_path.sh
+[1.291s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/environment/ament_prefix_path.dsv
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/environment/path.sh
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/environment/path.dsv
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/local_setup.bash
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/local_setup.sh
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/local_setup.zsh
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/local_setup.dsv
+[1.292s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.dsv
+[1.297s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/ament_index/resource_index/packages/h1_2_description
+[1.297s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/cmake/h1_2_descriptionConfig.cmake
+[1.297s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/cmake/h1_2_descriptionConfig-version.cmake
+[1.297s] -- Installing: /home/utec/humanoid_ws/install/h1_2_description/share/h1_2_description/package.xml
+[1.304s] Invoked command in '/home/utec/humanoid_ws/build/h1_2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/utec/humanoid_ws/install/pycodes_h1:/home/utec/humanoid_ws/install/h1_2_model:/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/h1_2_description

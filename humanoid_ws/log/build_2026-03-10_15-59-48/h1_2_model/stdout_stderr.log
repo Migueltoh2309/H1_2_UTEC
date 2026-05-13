@@ -1,0 +1,71 @@
+running egg_info
+creating ../../../build/h1_2_model/h1_2_model.egg-info
+writing ../../../build/h1_2_model/h1_2_model.egg-info/PKG-INFO
+writing dependency_links to ../../../build/h1_2_model/h1_2_model.egg-info/dependency_links.txt
+writing entry points to ../../../build/h1_2_model/h1_2_model.egg-info/entry_points.txt
+writing requirements to ../../../build/h1_2_model/h1_2_model.egg-info/requires.txt
+writing top-level names to ../../../build/h1_2_model/h1_2_model.egg-info/top_level.txt
+writing manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+reading manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+writing manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/utec/humanoid_ws/build/h1_2_model/build
+creating /home/utec/humanoid_ws/build/h1_2_model/build/lib
+creating /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/kinematic_controller_fixed.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/kinematic_controller_wb1.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/__init__.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/joint_publisher.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/jacobian_test.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/fk_test_pose.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/kinematic_controller_wb2.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/jacobian_numeric_test.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+copying h1_2_model/fk_test_position.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+running install
+running install_lib
+creating /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/kinematic_controller_fixed.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/kinematic_controller_wb1.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/__init__.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/joint_publisher.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/jacobian_test.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/fk_test_pose.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/kinematic_controller_wb2.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/jacobian_numeric_test.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/fk_test_position.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/kinematic_controller_fixed.py to kinematic_controller_fixed.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/kinematic_controller_wb1.py to kinematic_controller_wb1.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/joint_publisher.py to joint_publisher.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/jacobian_test.py to jacobian_test.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/fk_test_pose.py to fk_test_pose.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/kinematic_controller_wb2.py to kinematic_controller_wb2.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/jacobian_numeric_test.py to jacobian_numeric_test.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/fk_test_position.py to fk_test_position.cpython-310.pyc
+running install_data
+creating /home/utec/humanoid_ws/install/h1_2_model/share/ament_index
+creating /home/utec/humanoid_ws/install/h1_2_model/share/ament_index/resource_index
+creating /home/utec/humanoid_ws/install/h1_2_model/share/ament_index/resource_index/packages
+copying resource/h1_2_model -> /home/utec/humanoid_ws/install/h1_2_model/share/ament_index/resource_index/packages
+copying package.xml -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model
+creating /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+copying launch/display_handless_jacobian.launch.py -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+copying launch/display_handless_kinecontrol.launch.py -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+copying launch/display_handless_fk.launch.py -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+creating /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+copying rviz/h1_2_display_marker_fk.rviz -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+copying rviz/h1_2_display_marker_kinecontrol.rviz -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+copying rviz/h1_2_display_marker_jacobian.rviz -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+running install_egg_info
+Copying ../../../build/h1_2_model/h1_2_model.egg-info to /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model-0.0.1-py3.10.egg-info
+running install_scripts
+Installing fk_test_pose script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing fk_test_position script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing jacobian_numeric_test script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing jacobian_test script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing joint_publisher script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing kinematic_controller_fixed script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing kinematic_controller_wb1 script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+Installing kinematic_controller_wb2 script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_model/install.log'

@@ -1,0 +1,41 @@
+[2.147s] Invoking command in '/home/utec/humanoid_ws/src/h1_2_real': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_real/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_2_real build --build-base /home/utec/humanoid_ws/build/h1_2_real/build install --record /home/utec/humanoid_ws/build/h1_2_real/install.log --single-version-externally-managed install_data
+[2.636s] running egg_info
+[2.637s] creating ../../build/h1_2_real/h1_2_real.egg-info
+[2.638s] writing ../../build/h1_2_real/h1_2_real.egg-info/PKG-INFO
+[2.638s] writing dependency_links to ../../build/h1_2_real/h1_2_real.egg-info/dependency_links.txt
+[2.638s] writing entry points to ../../build/h1_2_real/h1_2_real.egg-info/entry_points.txt
+[2.638s] writing requirements to ../../build/h1_2_real/h1_2_real.egg-info/requires.txt
+[2.638s] writing top-level names to ../../build/h1_2_real/h1_2_real.egg-info/top_level.txt
+[2.638s] writing manifest file '../../build/h1_2_real/h1_2_real.egg-info/SOURCES.txt'
+[2.641s] reading manifest file '../../build/h1_2_real/h1_2_real.egg-info/SOURCES.txt'
+[2.641s] writing manifest file '../../build/h1_2_real/h1_2_real.egg-info/SOURCES.txt'
+[2.641s] running build
+[2.642s] running build_py
+[2.642s] creating /home/utec/humanoid_ws/build/h1_2_real/build
+[2.642s] creating /home/utec/humanoid_ws/build/h1_2_real/build/lib
+[2.642s] creating /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real
+[2.642s] copying h1_2_real/__init__.py -> /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real
+[2.642s] copying h1_2_real/test_mandar.py -> /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real
+[2.642s] copying h1_2_real/test_leer.py -> /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real
+[2.642s] running install
+[2.643s] running install_lib
+[2.644s] creating /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real
+[2.644s] copying /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real/__init__.py -> /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real
+[2.644s] copying /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real/test_mandar.py -> /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real
+[2.644s] copying /home/utec/humanoid_ws/build/h1_2_real/build/lib/h1_2_real/test_leer.py -> /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real
+[2.645s] byte-compiling /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real/__init__.py to __init__.cpython-310.pyc
+[2.645s] byte-compiling /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real/test_mandar.py to test_mandar.cpython-310.pyc
+[2.647s] byte-compiling /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real/test_leer.py to test_leer.cpython-310.pyc
+[2.647s] running install_data
+[2.648s] creating /home/utec/humanoid_ws/install/h1_2_real/share/ament_index
+[2.648s] creating /home/utec/humanoid_ws/install/h1_2_real/share/ament_index/resource_index
+[2.648s] creating /home/utec/humanoid_ws/install/h1_2_real/share/ament_index/resource_index/packages
+[2.648s] copying resource/h1_2_real -> /home/utec/humanoid_ws/install/h1_2_real/share/ament_index/resource_index/packages
+[2.648s] copying package.xml -> /home/utec/humanoid_ws/install/h1_2_real/share/h1_2_real
+[2.648s] running install_egg_info
+[2.650s] Copying ../../build/h1_2_real/h1_2_real.egg-info to /home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages/h1_2_real-0.0.0-py3.10.egg-info
+[2.651s] running install_scripts
+[2.680s] Installing test_leer script to /home/utec/humanoid_ws/install/h1_2_real/lib/h1_2_real
+[2.680s] Installing test_mandar script to /home/utec/humanoid_ws/install/h1_2_real/lib/h1_2_real
+[2.680s] writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_real/install.log'
+[2.725s] Invoked command in '/home/utec/humanoid_ws/src/h1_2_real' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_real/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_real/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/h1_2_real build --build-base /home/utec/humanoid_ws/build/h1_2_real/build install --record /home/utec/humanoid_ws/build/h1_2_real/install.log --single-version-externally-managed install_data

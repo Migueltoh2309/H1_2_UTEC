@@ -1,0 +1,179 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found unitree_go: 0.0.0 (/home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found unitree_hg: 0.0.0 (/home/utec/humanoid_ws/install/unitree_hg/share/unitree_hg/cmake)
+-- Found unitree_api: 0.0.0 (/home/utec/humanoid_ws/install/unitree_api/share/unitree_api/cmake)
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosbag2_cpp: 0.15.16 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+-- Found yaml-cpp version 0.7.0
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/utec/humanoid_ws/src/unitree_ros2/example/src/include;/home/utec/humanoid_ws/src/unitree_ros2/example/src/include/common;/home/utec/humanoid_ws/src/unitree_ros2/example/src/include/nlohmann
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/utec/humanoid_ws/build/unitree_ros2_example
+[35m[1mConsolidate compiler generated dependencies of target read_low_state[0m
+[35m[1mConsolidate compiler generated dependencies of target read_motion_state[0m
+[35m[1mConsolidate compiler generated dependencies of target low_level_ctrl_hg[0m
+[35m[1mConsolidate compiler generated dependencies of target read_low_state_hg[0m
+[35m[1mConsolidate compiler generated dependencies of target low_level_ctrl[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_sport_client[0m
+[35m[1mConsolidate compiler generated dependencies of target read_wireless_controller[0m
+[  1%] [32mBuilding CXX object CMakeFiles/read_motion_state.dir/src/read_motion_state.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_low_level_example[0m
+[  3%] [32mBuilding CXX object CMakeFiles/read_low_state.dir/src/read_low_state.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/read_low_state_hg.dir/src/read_low_state_hg.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/low_level_ctrl.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/read_wireless_controller.dir/src/read_wireless_controller.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/h1-2/lowlevel/low_level_ctrl_hg.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/go2/go2_sport_client.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/common/motor_crc.cpp.o[0m
+[ 17%] [32m[1mLinking CXX executable low_level_ctrl[0m
+[ 17%] Built target low_level_ctrl
+[ 18%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/common/ros2_sport_client.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/common/motor_crc_hg.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable read_low_state_hg[0m
+[ 24%] [32m[1mLinking CXX executable read_wireless_controller[0m
+[ 25%] [32m[1mLinking CXX executable read_low_state[0m
+[ 27%] [32m[1mLinking CXX executable read_motion_state[0m
+[ 27%] Built target read_low_state
+[ 29%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[ 29%] Built target read_low_state_hg
+[35m[1mConsolidate compiler generated dependencies of target go2_stand_example[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/go2/go2_stand_example.cpp.o[0m
+[ 31%] Built target read_wireless_controller
+[ 32%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_robot_state_client[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/go2/go2_robot_state_client.cpp.o[0m
+[ 34%] Built target read_motion_state
+[ 36%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/common/motor_crc.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable low_level_ctrl_hg[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_arm_sdk_dds_example[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/g1/high_level/g1_arm_sdk_dds_example.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable g1_low_level_example[0m
+[ 41%] Built target low_level_ctrl_hg
+[35m[1mConsolidate compiler generated dependencies of target g1_arm_action_example[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/g1/high_level/g1_arm_action_example.cpp.o[0m
+[ 43%] Built target g1_low_level_example
+[ 44%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/common/motor_crc.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/common/motor_crc.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_dex3_example[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/g1/dex3/g1_dex3_example.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/common/motor_crc.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_loco_client_example[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/g1/high_level/loco_client_example.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable go2_stand_example[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/common/motor_crc.cpp.o[0m
+[ 55%] Built target go2_stand_example
+[35m[1mConsolidate compiler generated dependencies of target g1_ankle_swing_example[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/g1/lowlevel/g1_ankle_swing_example.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable go2_sport_client[0m
+[ 58%] Built target go2_sport_client
+[ 60%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable g1_arm_sdk_dds_example[0m
+[ 63%] [32m[1mLinking CXX executable go2_robot_state_client[0m
+[ 63%] Built target g1_arm_sdk_dds_example
+[35m[1mConsolidate compiler generated dependencies of target g1_audio_client_example[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/g1_audio_client_example.dir/src/g1/audio_client/g1_audio_client_example.cpp.o[0m
+[ 65%] Built target go2_robot_state_client
+[35m[1mConsolidate compiler generated dependencies of target b2w_sport_client[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/b2w_sport_client.dir/src/b2w/b2w_sport_client.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target b2w_stand_example[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/b2w_stand_example.dir/src/b2w/b2w_stand_example.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable g1_arm_action_example[0m
+[ 72%] [32m[1mLinking CXX executable g1_dex3_example[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/b2w_sport_client.dir/src/common/ros2_b2_sport_client.cpp.o[0m
+[ 74%] Built target g1_dex3_example
+[ 75%] [32mBuilding CXX object CMakeFiles/b2w_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[ 75%] Built target g1_arm_action_example
+[35m[1mConsolidate compiler generated dependencies of target b2_stand_example[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/b2_stand_example.dir/src/b2/b2_stand_example.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target b2_sport_client[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/b2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/b2_sport_client.dir/src/b2/b2_sport_client.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable g1_loco_client_example[0m
+[ 82%] Built target g1_loco_client_example
+[ 84%] [32mBuilding CXX object CMakeFiles/b2_sport_client.dir/src/common/ros2_b2_sport_client.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable b2w_sport_client[0m
+[ 86%] Built target b2w_sport_client
+[35m[1mConsolidate compiler generated dependencies of target g1_dual_arm_example[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/g1/lowlevel/g1_dual_arm_example.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable g1_ankle_swing_example[0m
+[ 91%] Built target g1_ankle_swing_example
+[ 93%] [32m[1mLinking CXX executable g1_audio_client_example[0m
+[ 93%] Built target g1_audio_client_example
+[ 94%] [32m[1mLinking CXX executable b2_sport_client[0m
+[ 94%] Built target b2_sport_client
+[ 96%] [32m[1mLinking CXX executable b2w_stand_example[0m
+[ 96%] Built target b2w_stand_example
+[ 98%] [32m[1mLinking CXX executable b2_stand_example[0m
+[ 98%] Built target b2_stand_example
+[100%] [32m[1mLinking CXX executable g1_dual_arm_example[0m
+[100%] Built target g1_dual_arm_example
+-- Install configuration: ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl_hg
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/low_level_ctrl_hg" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/g1_low_level_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/g1_low_level_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state_hg
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_low_state_hg" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_motion_state
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_motion_state" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_wireless_controller
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/read_wireless_controller" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_sport_client
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_sport_client" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_stand_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/lib/go2_stand_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/go2_robot_state_client
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/go2_robot_state_client" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_action_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_arm_action_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dex3_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dex3_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_loco_client_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_loco_client_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dual_arm_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_dual_arm_example" to ""
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_audio_client_example
+-- Set runtime path of "/home/utec/humanoid_ws/install/unitree_ros2_example/bin/g1_audio_client_example" to ""
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+-- Installing: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+-- Up-to-date: /home/utec/humanoid_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.xml

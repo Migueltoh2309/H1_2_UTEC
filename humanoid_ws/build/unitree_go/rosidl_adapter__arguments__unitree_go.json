@@ -1,0 +1,29 @@
+{
+  "package_name": "unitree_go",
+  "non_idl_tuples": [
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/AudioData.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/BmsCmd.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/BmsState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Error.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Go2FrontVideoData.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/HeightMap.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/IMUState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/InterfaceConfig.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LidarState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LowCmd.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/LowState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorCmd.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorCmds.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/MotorStates.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/PathPoint.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Req.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/Res.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/SportModeCmd.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/SportModeState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/TimeSpec.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/UwbState.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/UwbSwitch.msg",
+    "/home/utec/humanoid_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go:msg/WirelessController.msg"
+  ]
+}

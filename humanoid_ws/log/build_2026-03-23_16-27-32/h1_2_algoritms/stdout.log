@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/h1_2_algoritms/h1_2_algoritms.egg-info
+writing ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/PKG-INFO
+writing dependency_links to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/dependency_links.txt
+writing entry points to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/entry_points.txt
+writing requirements to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/requires.txt
+writing top-level names to ../../build/h1_2_algoritms/h1_2_algoritms.egg-info/top_level.txt
+writing manifest file '../../build/h1_2_algoritms/h1_2_algoritms.egg-info/SOURCES.txt'
+reading manifest file '../../build/h1_2_algoritms/h1_2_algoritms.egg-info/SOURCES.txt'
+writing manifest file '../../build/h1_2_algoritms/h1_2_algoritms.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/utec/humanoid_ws/build/h1_2_algoritms/build
+creating /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib
+creating /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms
+copying h1_2_algoritms/fk_whole_body_h1_2.py -> /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms
+copying h1_2_algoritms/__init__.py -> /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms
+copying h1_2_algoritms/fk_functions.py -> /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms
+copying h1_2_algoritms/markers.py -> /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms
+running install
+running install_lib
+creating /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms
+copying /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms/fk_whole_body_h1_2.py -> /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms
+copying /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms/__init__.py -> /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms
+copying /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms/fk_functions.py -> /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms
+copying /home/utec/humanoid_ws/build/h1_2_algoritms/build/lib/h1_2_algoritms/markers.py -> /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms
+byte-compiling /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms/fk_whole_body_h1_2.py to fk_whole_body_h1_2.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms/fk_functions.py to fk_functions.cpython-310.pyc
+byte-compiling /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms/markers.py to markers.cpython-310.pyc
+running install_data
+creating /home/utec/humanoid_ws/install/h1_2_algoritms/share/ament_index
+creating /home/utec/humanoid_ws/install/h1_2_algoritms/share/ament_index/resource_index
+creating /home/utec/humanoid_ws/install/h1_2_algoritms/share/ament_index/resource_index/packages
+copying resource/h1_2_algoritms -> /home/utec/humanoid_ws/install/h1_2_algoritms/share/ament_index/resource_index/packages
+copying package.xml -> /home/utec/humanoid_ws/install/h1_2_algoritms/share/h1_2_algoritms
+running install_egg_info
+Copying ../../build/h1_2_algoritms/h1_2_algoritms.egg-info to /home/utec/humanoid_ws/install/h1_2_algoritms/lib/python3.10/site-packages/h1_2_algoritms-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_algoritms/install.log'

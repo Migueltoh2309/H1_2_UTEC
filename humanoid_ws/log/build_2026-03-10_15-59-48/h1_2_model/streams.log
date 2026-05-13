@@ -1,0 +1,73 @@
+[1.090s] Invoking command in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/h1_2_model build --build-base /home/utec/humanoid_ws/build/h1_2_model/build install --record /home/utec/humanoid_ws/build/h1_2_model/install.log --single-version-externally-managed install_data
+[1.423s] running egg_info
+[1.423s] creating ../../../build/h1_2_model/h1_2_model.egg-info
+[1.424s] writing ../../../build/h1_2_model/h1_2_model.egg-info/PKG-INFO
+[1.424s] writing dependency_links to ../../../build/h1_2_model/h1_2_model.egg-info/dependency_links.txt
+[1.424s] writing entry points to ../../../build/h1_2_model/h1_2_model.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../../build/h1_2_model/h1_2_model.egg-info/requires.txt
+[1.424s] writing top-level names to ../../../build/h1_2_model/h1_2_model.egg-info/top_level.txt
+[1.425s] writing manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+[1.429s] reading manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+[1.429s] writing manifest file '../../../build/h1_2_model/h1_2_model.egg-info/SOURCES.txt'
+[1.429s] running build
+[1.429s] running build_py
+[1.429s] creating /home/utec/humanoid_ws/build/h1_2_model/build
+[1.429s] creating /home/utec/humanoid_ws/build/h1_2_model/build/lib
+[1.429s] creating /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.429s] copying h1_2_model/kinematic_controller_fixed.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.429s] copying h1_2_model/kinematic_controller_wb1.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.429s] copying h1_2_model/__init__.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.429s] copying h1_2_model/joint_publisher.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.430s] copying h1_2_model/jacobian_test.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.430s] copying h1_2_model/fk_test_pose.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.430s] copying h1_2_model/kinematic_controller_wb2.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.430s] copying h1_2_model/jacobian_numeric_test.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.430s] copying h1_2_model/fk_test_position.py -> /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model
+[1.430s] running install
+[1.430s] running install_lib
+[1.431s] creating /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.431s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/kinematic_controller_fixed.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.431s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/kinematic_controller_wb1.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.431s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/__init__.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.431s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/joint_publisher.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.431s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/jacobian_test.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.431s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/fk_test_pose.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.432s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/kinematic_controller_wb2.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.432s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/jacobian_numeric_test.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.432s] copying /home/utec/humanoid_ws/build/h1_2_model/build/lib/h1_2_model/fk_test_position.py -> /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model
+[1.432s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/kinematic_controller_fixed.py to kinematic_controller_fixed.cpython-310.pyc
+[1.433s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/kinematic_controller_wb1.py to kinematic_controller_wb1.cpython-310.pyc
+[1.434s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/__init__.py to __init__.cpython-310.pyc
+[1.434s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/joint_publisher.py to joint_publisher.cpython-310.pyc
+[1.435s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/jacobian_test.py to jacobian_test.cpython-310.pyc
+[1.436s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/fk_test_pose.py to fk_test_pose.cpython-310.pyc
+[1.437s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/kinematic_controller_wb2.py to kinematic_controller_wb2.cpython-310.pyc
+[1.438s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/jacobian_numeric_test.py to jacobian_numeric_test.cpython-310.pyc
+[1.439s] byte-compiling /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model/fk_test_position.py to fk_test_position.cpython-310.pyc
+[1.439s] running install_data
+[1.440s] creating /home/utec/humanoid_ws/install/h1_2_model/share/ament_index
+[1.440s] creating /home/utec/humanoid_ws/install/h1_2_model/share/ament_index/resource_index
+[1.440s] creating /home/utec/humanoid_ws/install/h1_2_model/share/ament_index/resource_index/packages
+[1.440s] copying resource/h1_2_model -> /home/utec/humanoid_ws/install/h1_2_model/share/ament_index/resource_index/packages
+[1.440s] copying package.xml -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model
+[1.440s] creating /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+[1.440s] copying launch/display_handless_jacobian.launch.py -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+[1.440s] copying launch/display_handless_kinecontrol.launch.py -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+[1.440s] copying launch/display_handless_fk.launch.py -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/launch
+[1.440s] creating /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+[1.441s] copying rviz/h1_2_display_marker_fk.rviz -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+[1.441s] copying rviz/h1_2_display_marker_kinecontrol.rviz -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+[1.441s] copying rviz/h1_2_display_marker_jacobian.rviz -> /home/utec/humanoid_ws/install/h1_2_model/share/h1_2_model/rviz
+[1.441s] running install_egg_info
+[1.443s] Copying ../../../build/h1_2_model/h1_2_model.egg-info to /home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages/h1_2_model-0.0.1-py3.10.egg-info
+[1.443s] running install_scripts
+[1.472s] Installing fk_test_pose script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.472s] Installing fk_test_position script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.473s] Installing jacobian_numeric_test script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.473s] Installing jacobian_test script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.474s] Installing joint_publisher script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.474s] Installing kinematic_controller_fixed script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.474s] Installing kinematic_controller_wb1 script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.474s] Installing kinematic_controller_wb2 script to /home/utec/humanoid_ws/install/h1_2_model/lib/h1_2_model
+[1.474s] writing list of installed files to '/home/utec/humanoid_ws/build/h1_2_model/install.log'
+[1.510s] Invoked command in '/home/utec/humanoid_ws/src/h1_2_utec/h1_2_model' returned '0': CMAKE_PREFIX_PATH=/home/utec/humanoid_ws/install/h1_2_description:/home/utec/humanoid_ws/install/unitree_ros2_example:/home/utec/humanoid_ws/install/h1_2_interface:/home/utec/humanoid_ws/install/unitree_hg:/home/utec/humanoid_ws/install/unitree_go:/home/utec/humanoid_ws/install/unitree_api PYTHONPATH=/home/utec/humanoid_ws/build/h1_2_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/utec/humanoid_ws/install/h1_2_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/h1_2_model build --build-base /home/utec/humanoid_ws/build/h1_2_model/build install --record /home/utec/humanoid_ws/build/h1_2_model/install.log --single-version-externally-managed install_data

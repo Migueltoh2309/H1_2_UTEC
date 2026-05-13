@@ -1,0 +1,10 @@
+[console_scripts]
+R_read_states_h1 = pycodes_h1.R_read_states_h1:main
+S_fk_arm_test = pycodes_h1.S_fk_arm_test:main
+S_fk_body_test = pycodes_h1.S_fk_body_test:main
+S_ik_SE3_adv_arm_test = pycodes_h1.S_ik_SE3_adv_arm_test:main
+S_ik_adv_arm_test = pycodes_h1.S_ik_adv_arm_test:main
+S_ik_arm_test = pycodes_h1.S_ik_arm_test:main
+S_kine_control_QP_arm_test = pycodes_h1.S_kine_control_QP_arm_test:main
+S_vision_humanoid = pycodes_h1.S_vision_humanoid:main
+

@@ -1,0 +1,4 @@
+source;share/h1_2_interface/local_setup.bash
+source;share/h1_2_interface/local_setup.dsv
+source;share/h1_2_interface/local_setup.sh
+source;share/h1_2_interface/local_setup.zsh

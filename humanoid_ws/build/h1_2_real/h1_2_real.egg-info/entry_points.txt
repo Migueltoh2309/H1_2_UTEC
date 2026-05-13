@@ -1,0 +1,5 @@
+[console_scripts]
+test_leer = h1_2_real.test_leer:main
+test_mandar = h1_2_real.test_mandar:main
+test_mandar_modificado = h1_2_real.test_mandar_modificado:main
+

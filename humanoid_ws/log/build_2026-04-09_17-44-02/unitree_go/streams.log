@@ -1,0 +1,714 @@
+[0.021s] Invoking command in '/home/utec/humanoid_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_go -- -j8 -l8
+[0.112s] [  0%] Built target unitree_go__dds_connext_idl
+[0.119s] [  0%] Built target unitree_go__cpp
+[0.127s] [ 12%] Built target unitree_go__rosidl_generator_c
+[0.160s] [ 12%] Built target ament_cmake_python_copy_unitree_go
+[0.243s] [ 24%] Built target unitree_go__rosidl_typesupport_introspection_c
+[0.247s] [ 26%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/audio_data__type_support.cpp.o[0m
+[0.256s] [ 38%] Built target unitree_go__rosidl_typesupport_c
+[0.256s] [ 49%] Built target unitree_go__rosidl_typesupport_fastrtps_cpp
+[0.256s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/bms_cmd__type_support.cpp.o[0m
+[0.283s] [ 51%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_cmd__type_support.cpp.o[0m
+[0.285s] [ 63%] Built target unitree_go__rosidl_typesupport_fastrtps_c
+[0.294s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/audio_data__type_support.cpp.o[0m
+[0.297s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/bms_state__type_support.cpp.o[0m
+[0.303s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_state__type_support.cpp.o[0m
+[0.330s] [ 64%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/error__type_support.cpp.o[0m
+[1.348s] [ 64%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/go2_front_video_data__type_support.cpp.o[0m
+[1.496s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/error__type_support.cpp.o[0m
+[1.535s] running egg_info
+[1.536s] writing unitree_go.egg-info/PKG-INFO
+[1.536s] writing dependency_links to unitree_go.egg-info/dependency_links.txt
+[1.537s] writing top-level names to unitree_go.egg-info/top_level.txt
+[1.568s] reading manifest file 'unitree_go.egg-info/SOURCES.txt'
+[1.568s] writing manifest file 'unitree_go.egg-info/SOURCES.txt'
+[1.754s] [ 65%] Built target ament_cmake_python_build_unitree_go_egg
+[1.782s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/go2_front_video_data__type_support.cpp.o[0m
+[1.849s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/height_map__type_support.cpp.o[0m
+[1.937s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/height_map__type_support.cpp.o[0m
+[2.092s] [ 67%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/imu_state__type_support.cpp.o[0m
+[2.190s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/interface_config__type_support.cpp.o[0m
+[2.302s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/lidar_state__type_support.cpp.o[0m
+[2.604s] [ 68%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/imu_state__type_support.cpp.o[0m
+[2.783s] [ 69%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/interface_config__type_support.cpp.o[0m
+[3.524s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/low_cmd__type_support.cpp.o[0m
+[3.587s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/low_state__type_support.cpp.o[0m
+[3.688s] [ 70%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_cmd__type_support.cpp.o[0m
+[3.731s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_cmds__type_support.cpp.o[0m
+[4.276s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/lidar_state__type_support.cpp.o[0m
+[4.286s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/low_cmd__type_support.cpp.o[0m
+[4.680s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/low_state__type_support.cpp.o[0m
+[4.693s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_state__type_support.cpp.o[0m
+[4.743s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_cmd__type_support.cpp.o[0m
+[4.845s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/motor_states__type_support.cpp.o[0m
+[4.867s] [ 73%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/path_point__type_support.cpp.o[0m
+[4.997s] [ 74%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_cmds__type_support.cpp.o[0m
+[5.044s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/req__type_support.cpp.o[0m
+[5.366s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/res__type_support.cpp.o[0m
+[5.572s] [ 75%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_state__type_support.cpp.o[0m
+[5.645s] [ 76%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/motor_states__type_support.cpp.o[0m
+[5.676s] [ 76%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/path_point__type_support.cpp.o[0m
+[5.685s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/req__type_support.cpp.o[0m
+[5.774s] [ 77%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/res__type_support.cpp.o[0m
+[6.106s] [ 78%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/sport_mode_cmd__type_support.cpp.o[0m
+[6.179s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/sport_mode_cmd__type_support.cpp.o[0m
+[6.237s] [ 79%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/sport_mode_state__type_support.cpp.o[0m
+[6.614s] [ 80%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/time_spec__type_support.cpp.o[0m
+[6.636s] [ 80%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/uwb_state__type_support.cpp.o[0m
+[6.666s] [ 80%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/sport_mode_state__type_support.cpp.o[0m
+[6.679s] [ 81%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/uwb_switch__type_support.cpp.o[0m
+[6.746s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/time_spec__type_support.cpp.o[0m
+[6.773s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_go/msg/wireless_controller__type_support.cpp.o[0m
+[6.928s] [ 82%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/uwb_state__type_support.cpp.o[0m
+[7.136s] [ 83%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/uwb_switch__type_support.cpp.o[0m
+[7.141s] [ 83%] [32mBuilding CXX object CMakeFiles/unitree_go__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/wireless_controller__type_support.cpp.o[0m
+[7.317s] [ 84%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_cpp.so[0m
+[7.387s] [ 85%] Built target unitree_go__rosidl_typesupport_cpp
+[7.647s] [ 86%] [32m[1mLinking CXX shared library libunitree_go__rosidl_typesupport_introspection_cpp.so[0m
+[7.732s] [ 87%] Built target unitree_go__rosidl_typesupport_introspection_cpp
+[7.751s] [ 87%] Built target unitree_go
+[7.772s] [ 88%] Built target unitree_go__py
+[7.806s] [ 89%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_bms_cmd_s.c.o[0m
+[7.808s] [ 90%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_bms_state_s.c.o[0m
+[7.808s] [ 90%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_error_s.c.o[0m
+[7.814s] [ 90%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_audio_data_s.c.o[0m
+[7.814s] [ 91%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_height_map_s.c.o[0m
+[7.817s] [ 91%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_imu_state_s.c.o[0m
+[7.817s] [ 92%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_interface_config_s.c.o[0m
+[7.817s] [ 92%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_go2_front_video_data_s.c.o[0m
+[8.006s] [ 92%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_lidar_state_s.c.o[0m
+[8.015s] [ 93%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_low_cmd_s.c.o[0m
+[8.035s] [ 93%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_low_state_s.c.o[0m
+[8.042s] [ 93%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_cmd_s.c.o[0m
+[8.057s] [ 94%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_cmds_s.c.o[0m
+[8.080s] [ 94%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_state_s.c.o[0m
+[8.084s] [ 95%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_motor_states_s.c.o[0m
+[8.117s] [ 95%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_path_point_s.c.o[0m
+[8.271s] [ 95%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_res_s.c.o[0m
+[8.276s] [ 96%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_sport_mode_cmd_s.c.o[0m
+[8.276s] [ 96%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_sport_mode_state_s.c.o[0m
+[8.277s] [ 97%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_time_spec_s.c.o[0m
+[8.281s] [ 98%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_req_s.c.o[0m
+[8.287s] [ 98%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_uwb_state_s.c.o[0m
+[8.314s] [ 98%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_wireless_controller_s.c.o[0m
+[8.320s] [ 99%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_py.dir/rosidl_generator_py/unitree_go/msg/_uwb_switch_s.c.o[0m
+[8.517s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/libunitree_go__rosidl_generator_py.so[0m
+[8.557s] [100%] Built target unitree_go__rosidl_generator_py
+[8.578s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.578s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.578s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.616s] [100%] Built target unitree_go__rosidl_typesupport_fastrtps_c__pyext
+[8.616s] [100%] Built target unitree_go__rosidl_typesupport_c__pyext
+[8.616s] [100%] Built target unitree_go__rosidl_typesupport_introspection_c__pyext
+[8.626s] Invoked command in '/home/utec/humanoid_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/utec/humanoid_ws/build/unitree_go -- -j8 -l8
+[8.628s] Invoking command in '/home/utec/humanoid_ws/build/unitree_go': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_go
+[8.635s] -- Install configuration: ""
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/ament_index/resource_index/rosidl_interfaces/unitree_go
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_cmd.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_cmd.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/time_spec.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmd.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_cmd.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/lidar_state.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/audio_data.h
+[8.636s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/req.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/imu_state.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__functions.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__struct.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__functions.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__functions.c
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__functions.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__functions.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__functions.c
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__struct.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__functions.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__functions.c
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__functions.c
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__struct.h
+[8.637s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__functions.c
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__functions.c
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__functions.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__functions.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__functions.c
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__functions.c
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__functions.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__functions.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__functions.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__functions.c
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__struct.h
+[8.638s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__struct.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__functions.c
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__functions.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__functions.c
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__struct.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__struct.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__functions.c
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__functions.c
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__functions.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__functions.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__functions.h
+[8.639s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__struct.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__functions.c
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__functions.c
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__struct.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__functions.c
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__struct.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__struct.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__functions.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.h
+[8.640s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__struct.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__struct.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__struct.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__struct.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__struct.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__functions.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__functions.c
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__struct.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__functions.h
+[8.641s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__functions.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__functions.c
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__struct.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_state.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/go2_front_video_data.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_state.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_state.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/path_point.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_generator_c__visibility_control.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_states.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/error.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_switch.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_state.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/res.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/height_map.h
+[8.642s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmds.h
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_state.h
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/interface_config.h
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/library_path.sh
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/library_path.dsv
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_c.so
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go
+[8.643s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_c.h
+[8.644s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_c.h
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_c.so
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/wireless_controller.hpp
+[8.645s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_state.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/height_map.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/req.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_state.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmds.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/lidar_state.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__builder.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__struct.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__builder.hpp
+[8.646s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__traits.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__struct.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__struct.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__traits.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__builder.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__traits.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__struct.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__struct.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__struct.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__builder.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__traits.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__struct.hpp
+[8.647s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__traits.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__builder.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__builder.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__struct.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__struct.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__builder.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__builder.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__traits.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__traits.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__struct.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__builder.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__traits.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__builder.hpp
+[8.648s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__traits.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__struct.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__traits.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__struct.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__traits.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__struct.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__struct.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__traits.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__builder.hpp
+[8.649s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__builder.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__builder.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__struct.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__struct.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__builder.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__struct.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__struct.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__builder.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__builder.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__traits.hpp
+[8.650s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__struct.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__struct.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__struct.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__traits.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__traits.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__struct.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__struct.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__traits.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__traits.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__struct.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__builder.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__traits.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__builder.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_state.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/sport_mode_cmd.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_state.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_cmd.hpp
+[8.651s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/motor_states.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/audio_data.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/imu_state.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/go2_front_video_data.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/interface_config.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_cmd.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/path_point.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/error.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/low_state.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/time_spec.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/uwb_switch.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/res.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/bms_cmd.hpp
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg
+[8.652s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/dds_fastrtps
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.653s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_fastrtps_cpp.hpp
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_fastrtps_cpp.so
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.c
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.c
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.c
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.c
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.c
+[8.654s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_c.h
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.c
+[8.655s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_c.h
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.c
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.c
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.c
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_c.h
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.c
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.c
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_c.h
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.c
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_c.so
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_c.so
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__rosidl_typesupport_introspection_cpp.hpp
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__rosidl_typesupport_introspection_cpp.hpp
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__type_support.cpp
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__type_support.cpp
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__type_support.cpp
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__type_support.cpp
+[8.656s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmds__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/path_point__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_switch__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/interface_config__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/lidar_state__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/res__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_states__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/req__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__type_support.cpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__rosidl_typesupport_introspection_cpp.hpp
+[8.657s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_state__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_state__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_cmd__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/time_spec__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/wireless_controller__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/sport_mode_cmd__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/motor_cmd__type_support.cpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/height_map__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/uwb_state__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/include/unitree_go/unitree_go/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[8.658s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so
+[8.658s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_introspection_cpp.so" to ""
+[8.658s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so
+[8.658s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_typesupport_cpp.so" to ""
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/pythonpath.sh
+[8.658s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/pythonpath.dsv
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/top_level.txt
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/PKG-INFO
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_c.c
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/__init__.py
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.659s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/libunitree_go__rosidl_generator_py.so
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_introspection_c.c
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/_unitree_go_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_imu_state.py
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_time_spec_s.c
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_wireless_controller.py
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_go2_front_video_data.py
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_cmd.py
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_error.py
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_go2_front_video_data_s.c
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_state.py
+[8.659s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_state_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_res_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_imu_state_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_height_map_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmd.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_state_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_res.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/__init__.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_interface_config.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_cmd.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_cmd_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_path_point_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_audio_data_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_state_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_interface_config_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_switch_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_cmd_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_switch.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_low_state.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_state.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_cmd_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_state_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_req_s.c
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_height_map.py
+[8.660s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_states.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_lidar_state_s.c
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_cmd.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_req.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_time_spec.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_lidar_state.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_wireless_controller_s.c
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_bms_state.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmds.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_sport_mode_state_s.c
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_states_s.c
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_uwb_state.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_path_point.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_audio_data.py
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmds_s.c
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_error_s.c
+[8.661s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg/_motor_cmd_s.c
+[8.661s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.683s] Listing '/home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go'...
+[8.683s] Listing '/home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/msg'...
+[8.687s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.687s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.688s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.688s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.688s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.688s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_go/local/lib/python3.10/dist-packages/unitree_go/unitree_go_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.689s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so
+[8.690s] -- Set runtime path of "/home/utec/humanoid_ws/install/unitree_go/lib/libunitree_go__rosidl_generator_py.so" to ""
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/AudioData.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/BmsCmd.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/BmsState.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Error.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/HeightMap.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/IMUState.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/InterfaceConfig.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/LidarState.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/LowCmd.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/LowState.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorCmd.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorCmds.idl
+[8.690s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorState.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorStates.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/PathPoint.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Req.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Res.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/SportModeCmd.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/SportModeState.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/TimeSpec.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/UwbState.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/UwbSwitch.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/WirelessController.idl
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/AudioData.msg
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/BmsCmd.msg
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/BmsState.msg
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Error.msg
+[8.691s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Go2FrontVideoData.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/HeightMap.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/IMUState.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/InterfaceConfig.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/LidarState.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/LowCmd.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/LowState.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorCmd.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorCmds.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorState.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/MotorStates.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/PathPoint.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Req.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/Res.msg
+[8.692s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/SportModeCmd.msg
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/SportModeState.msg
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/TimeSpec.msg
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/UwbState.msg
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/UwbSwitch.msg
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/WirelessController.msg
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorStates_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Go2FrontVideoData_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/IMUState_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/PathPoint_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/UwbSwitch_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/UwbState_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmds_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Error_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Res_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/Req_.idl
+[8.693s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LidarState_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/AudioData_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorState_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/WirelessController_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/BmsCmd_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeCmd_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LowCmd_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/BmsState_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/SportModeState_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/HeightMap_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/MotorCmd_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/InterfaceConfig_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/TimeSpec_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/msg/dds_connext/LowState_.idl
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/ament_index/resource_index/package_run_dependencies/unitree_go
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/ament_index/resource_index/parent_prefix_path/unitree_go
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/ament_prefix_path.sh
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/ament_prefix_path.dsv
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/path.sh
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/environment/path.dsv
+[8.694s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/local_setup.bash
+[8.695s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/local_setup.sh
+[8.695s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/local_setup.zsh
+[8.695s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/local_setup.dsv
+[8.695s] -- Installing: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.dsv
+[8.695s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/ament_index/resource_index/packages/unitree_go
+[8.696s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport.cmake
+[8.696s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cExport-noconfig.cmake
+[8.696s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport.cmake
+[8.696s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.696s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_cppExport.cmake
+[8.697s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.697s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.697s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport.cmake
+[8.697s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.697s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport.cmake
+[8.698s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cExport-noconfig.cmake
+[8.698s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport.cmake
+[8.698s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.698s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport.cmake
+[8.698s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_go__rosidl_typesupport_cppExport-noconfig.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/export_unitree_go__rosidl_generator_pyExport-noconfig.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_libraries-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/ament_cmake_export_targets-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_goConfig.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/cmake/unitree_goConfig-version.cmake
+[8.699s] -- Up-to-date: /home/utec/humanoid_ws/install/unitree_go/share/unitree_go/package.xml
+[8.701s] Invoked command in '/home/utec/humanoid_ws/build/unitree_go' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/utec/humanoid_ws/build/unitree_go
